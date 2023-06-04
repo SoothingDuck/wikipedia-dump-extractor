@@ -1,2 +1,4 @@
 *.pyc
 dist
+
+DATA/db/wikipedia.sqlite
