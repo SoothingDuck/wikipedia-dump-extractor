@@ -2,3 +2,4 @@
 dist
 
 DATA/db/wikipedia.sqlite
+DATA/dump
