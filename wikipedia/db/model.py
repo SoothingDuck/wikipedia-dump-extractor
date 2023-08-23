@@ -10,15 +10,15 @@ from . import engine
 # declarative base class
 Base = declarative_base()
 
+
 # Wikipedia portal
 class Portal(Base):
-    __tablename__ = 'portal_list'
+    __tablename__ = "portal_list"
 
     id = Column(Integer, primary_key=True)
     name = Column(String)
 
     def edges_to_csv(self, csv_filename):
-
         # back and forth
         sql_query = """
         with article_portal as (
@@ -74,7 +74,9 @@ class Portal(Base):
         *
         from
         inbound_edges
-        """.format(self.name)
+        """.format(
+            self.name
+        )
 
         con = engine.connect()
 
@@ -84,14 +86,15 @@ class Portal(Base):
 
 # Wikipedia category
 class Category(Base):
-    __tablename__ = 'category_list'
+    __tablename__ = "category_list"
 
     id = Column(Integer, primary_key=True)
     name = Column(String)
 
+
 # Wikipedia ArticleCategoryLink
 class ArticleCategoryLink(Base):
-    __tablename__ = 'article_category_link'
+    __tablename__ = "article_category_link"
 
     article_id = Column(Integer, ForeignKey("article.id"), primary_key=True)
     category_id = Column(Integer, ForeignKey(Category.id), primary_key=True)
@@ -99,7 +102,7 @@ class ArticleCategoryLink(Base):
 
 # Wikipedia ArticlePortalLink
 class ArticlePortalLink(Base):
-    __tablename__ = 'article_portal_link'
+    __tablename__ = "article_portal_link"
 
     article_id = Column(Integer, ForeignKey("article.id"), primary_key=True)
     portal_id = Column(Integer, ForeignKey(Portal.id), primary_key=True)
@@ -107,10 +110,11 @@ class ArticlePortalLink(Base):
 
 # Wikipedia ArticleLink
 class ArticleLink(Base):
-    __tablename__ = 'article_link'
+    __tablename__ = "article_link"
 
     article_id = Column(Integer, ForeignKey("article.id"), primary_key=True)
     link_id = Column(Integer, ForeignKey("article.id"), primary_key=True)
+
 
 # Wikipedia Article
 class Article(Base):
@@ -123,22 +127,59 @@ class Article(Base):
     parents = relationship(
         "Article",
         secondary="article_link",
-        primaryjoin=ArticleLink.link_id==id,
-        secondaryjoin=ArticleLink.article_id==id,
-        backref="children"
+        primaryjoin=ArticleLink.link_id == id,
+        secondaryjoin=ArticleLink.article_id == id,
+        backref="children",
     )
 
     categories = relationship(
-        "Category",
-        secondary="article_category_link",
-        backref="articles"
+        "Category", secondary="article_category_link", backref="articles"
     )
 
     portals = relationship(
-        "Portal",
-        secondary="article_portal_link",
-        backref="articles"
+        "Portal", secondary="article_portal_link", backref="articles"
     )
+
+    def load(xml_mask):
+        # Chargement Article si vide
+        logger.info("Début : Chargement des articles")
+        if session.query(Article).first() is None:
+            for enwiki_articles_xml in glob.glob(xml_mask):
+                logger.info("Article : Dealing with {}".format(enwiki_articles_xml))
+                dump = Dump(enwiki_articles_xml)
+                extractor = DumpFileExtractor(dump, dump_directory)
+                i = 1
+                tmp = []
+                for article in extractor:
+                    # Only article which are not redirections
+                    if article.redirect_title is None:
+                        tmp.append(
+                            Article(
+                                id=article.id, title=article.title, namespace=article.ns
+                            )
+                        )
+                        i += 1
+                    if i > 10000:
+                        # Commit when enough entries
+                        session.bulk_save_objects(tmp)
+                        session.commit()
+                        tmp = []
+                        i = 1
+                # Last commit
+                session.bulk_save_objects(tmp)
+                session.commit()
+        logger.info("Fin : Chargement des articles")
+
+    def make_index():
+        # Creation d'index sur le nom de l'article
+        article_title_index = Index("article_title_idx", Article.title)
+        try:
+            logger.info("Début : Création index sur Article=>Title")
+            article_title_index.create(bind=engine)
+            logger.info("Fin : Création index sur Article=>Title")
+        except:
+            logger.info("Fin : Index sur Article=>Title déjà créé")
+
 
 # Wikipedia Redirection
 class Redirection(Base):
@@ -150,8 +191,7 @@ class Redirection(Base):
     namespace = Column(Integer)
 
 
-if __name__ == '__main__':
-
+if __name__ == "__main__":
     from . import logger
     from . import engine
 

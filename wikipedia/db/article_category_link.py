@@ -10,14 +10,17 @@ from sqlalchemy import Index
 from sqlalchemy import select
 
 from wikipedia.dump import Dump
-from wikipedia.extract import DumpFileExtractor
+from wikipedia.etl.extract import DumpFileExtractor
+
 
 def load(xml_mask):
     # Alimentation des liens Article <=> Categories
     logger.info("Début : Chargement des liens Article <=> Categories")
     if session.query(ArticleCategoryLink).first() is None:
         for enwiki_articles_xml in glob.glob(xml_mask):
-            logger.info("ArticleCategoryLink : Dealing with {}".format(enwiki_articles_xml))
+            logger.info(
+                "ArticleCategoryLink : Dealing with {}".format(enwiki_articles_xml)
+            )
             dump = Dump(enwiki_articles_xml)
             extractor = DumpFileExtractor(dump, dump_directory)
             i = 1
@@ -34,12 +37,11 @@ def load(xml_mask):
                         if result is not None:
                             unique_category_list.add(result[0])
 
-                # Ajout des portails dans la queue d'ajout 
+                # Ajout des portails dans la queue d'ajout
                 for category_id in unique_category_list:
                     tmp.append(
                         ArticleCategoryLink(
-                            article_id = article.id,
-                            category_id = category_id
+                            article_id=article.id, category_id=category_id
                         )
                     )
                     i += 1
@@ -48,19 +50,22 @@ def load(xml_mask):
                 if i > 10000:
                     # Commit when enough entries
                     session.bulk_save_objects(tmp)
-                    session.commit() 
+                    session.commit()
                     tmp = []
                     i = 1
 
             # Last commit
             session.bulk_save_objects(tmp)
-            session.commit() 
+            session.commit()
 
     logger.info("Fin : Chargement des liens Article <=> Categories")
 
+
 def make_index():
     # Creation d'index sur les liens de categories phase 1
-    article_category_link_article_id_index = Index('article_category_link_article_id_idx', ArticleCategoryLink.article_id)
+    article_category_link_article_id_index = Index(
+        "article_category_link_article_id_idx", ArticleCategoryLink.article_id
+    )
     try:
         logger.info("Début : Création index sur ArticleCategoryLink=>article_id")
         article_category_link_article_id_index.create(bind=engine)
@@ -69,7 +74,9 @@ def make_index():
         logger.info("Fin : Index sur ArticleCategoryLink=>article_id déjà créé")
 
     # Creation d'index sur les liens de portails phase 2
-    article_category_link_portal_id_index = Index('article_category_link_portal_id_idx', ArticleCategoryLink.category_id)
+    article_category_link_portal_id_index = Index(
+        "article_category_link_portal_id_idx", ArticleCategoryLink.category_id
+    )
     try:
         logger.info("Début : Création index sur ArticleCategoryLink=>category_id")
         article_category_link_portal_id_index.create(bind=engine)
@@ -77,8 +84,8 @@ def make_index():
     except:
         logger.info("Fin : Index sur ArticleCategoryLink=>category_id déjà créé")
 
-if __name__ == '__main__':
 
+if __name__ == "__main__":
     import os
     from . import dump_directory
 

@@ -10,14 +10,17 @@ from sqlalchemy import Index
 from sqlalchemy import select
 
 from wikipedia.dump import Dump
-from wikipedia.extract import DumpFileExtractor
+from wikipedia.etl.extract import DumpFileExtractor
+
 
 def load(xml_mask):
     # Alimentation des liens Article <=> Portails
     logger.info("Début : Chargement des liens Article <=> Portails")
     if session.query(ArticlePortalLink).first() is None:
         for enwiki_articles_xml in glob.glob(xml_mask):
-            logger.info("ArticlePortailLink : Dealing with {}".format(enwiki_articles_xml))
+            logger.info(
+                "ArticlePortailLink : Dealing with {}".format(enwiki_articles_xml)
+            )
             dump = Dump(enwiki_articles_xml)
             extractor = DumpFileExtractor(dump, dump_directory)
             i = 1
@@ -34,13 +37,10 @@ def load(xml_mask):
                         if result is not None:
                             unique_portal_list.add(result[0])
 
-                # Ajout des portails dans la queue d'ajout 
+                # Ajout des portails dans la queue d'ajout
                 for portal_id in unique_portal_list:
                     tmp.append(
-                        ArticlePortalLink(
-                            article_id = article.id,
-                            portal_id = portal_id
-                        )
+                        ArticlePortalLink(article_id=article.id, portal_id=portal_id)
                     )
                     i += 1
 
@@ -48,19 +48,22 @@ def load(xml_mask):
                 if i > 10000:
                     # Commit when enough entries
                     session.bulk_save_objects(tmp)
-                    session.commit() 
+                    session.commit()
                     tmp = []
                     i = 1
 
             # Last commit
             session.bulk_save_objects(tmp)
-            session.commit() 
+            session.commit()
 
     logger.info("Fin : Chargement des liens Article <=> Portails")
 
+
 def make_index():
     # Creation d'index sur les liens de portails phase 1
-    article_portal_link_article_id_index = Index('article_portal_link_article_id_idx', ArticlePortalLink.article_id)
+    article_portal_link_article_id_index = Index(
+        "article_portal_link_article_id_idx", ArticlePortalLink.article_id
+    )
     try:
         logger.info("Début : Création index sur ArticlePortalLink=>article_id")
         article_portal_link_article_id_index.create(bind=engine)
@@ -69,7 +72,9 @@ def make_index():
         logger.info("Fin : Index sur ArticlePortalLink=>article_id déjà créé")
 
     # Creation d'index sur les liens de portails phase 2
-    article_portal_link_portal_id_index = Index('article_portal_link_portal_id_idx', ArticlePortalLink.portal_id)
+    article_portal_link_portal_id_index = Index(
+        "article_portal_link_portal_id_idx", ArticlePortalLink.portal_id
+    )
     try:
         logger.info("Début : Création index sur ArticlePortalLink=>portal_id")
         article_portal_link_portal_id_index.create(bind=engine)
@@ -77,8 +82,8 @@ def make_index():
     except:
         logger.info("Fin : Index sur ArticlePortalLink=>portal_id déjà créé")
 
-if __name__ == '__main__':
 
+if __name__ == "__main__":
     import os
     from . import dump_directory
 
