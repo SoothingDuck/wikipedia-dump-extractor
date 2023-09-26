@@ -66,6 +66,10 @@ class Dump(object):
         return self.__filename_template("redirections")
 
     @property
+    def infobox_filename(self):
+        return self.__filename_template("infoboxes")
+
+    @property
     def link_filename(self):
         return self.__filename_template("links")
 
@@ -144,13 +148,11 @@ class Article(object):
     @property
     def infoboxes(self):
 
-        tmp = mwparserfromhell.parse(self.text)
-
         result = []
-        for template in tmp.filter_templates():
+        for template in mwparserfromhell.parse(self.text).filter_templates():
             if "Infobox" in template.name:
-                tmp = re.split(r"\s+", template.name.strip())
-                result.append(tmp[-1].lower())
+                tmp = str(template.name).replace("Infobox", "").strip()
+                result.append(tmp.lower())
         return(result)
 
     @property

@@ -59,7 +59,7 @@ def test_article_abraham_lincoln(abraham_lincoln_article):
     assert "Portal:American Civil War" in abraham_lincoln_article.portals
 
     # Infoboxes
-    assert abraham_lincoln_article.infoboxes == ["officeholder", "cabinet"]
+    assert abraham_lincoln_article.infoboxes == ["officeholder", "u.s. cabinet"]
 
 def test_article_extractor(playtronic_article):
 

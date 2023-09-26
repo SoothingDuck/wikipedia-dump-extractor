@@ -125,6 +125,23 @@ class DumpFileExtractor(DumpExtractor):
                                     [article.id, article.title.strip(), link.strip()]
                                 )
 
+    def extract_infoboxes(self):
+        # Categories
+        filename_path = os.path.join(self._directory_name, self.dump.infobox_filename)
+        if not os.path.exists(filename_path):
+            with open(filename_path, "w", newline="", encoding="utf-8") as csvfile:
+                infoboxwriter = csv.writer(
+                    csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
+                )
+                infoboxwriter.writerow(["article_id", "infobox"])
+
+                for article in self:
+                    if article.redirect_title is None:
+                        for infobox in article.infoboxes:
+                            infoboxwriter.writerow(
+                                [article.id, infobox.strip()]
+                            )
+
     def extract_categories(self):
         # Categories
         filename_path = os.path.join(self._directory_name, self.dump.category_filename)
