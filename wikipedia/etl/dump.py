@@ -76,6 +76,8 @@ class Dump(object):
     def portal_filename(self):
         return self.__filename_template("portals")
 
+    def __str__(self):
+        return "<Dump {}>".format(self.filename)
 
 class Article(object):
     def __init__(self, xml):

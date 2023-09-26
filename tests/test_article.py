@@ -26,6 +26,13 @@ def abraham_lincoln_article(dump_extractor):
 
 
 @pytest.fixture
+def actrius_article(dump_extractor):
+    for article in dump_extractor:
+        if article.title == "Actrius":
+            return article
+
+
+@pytest.fixture
 def playtronic_article(dump_extractor_extract):
     for article in dump_extractor_extract:
         if article.title == "Playtronic":
@@ -60,6 +67,11 @@ def test_article_extractor(playtronic_article):
 
     # Portails
     assert "Portal:Video games" in playtronic_article.portals
+
+def test_actrius(actrius_article):
+
+    assert actrius_article.title == "Actrius"
+    assert "film" in actrius_article.infoboxes
 
 def test_article(an_article):
 
