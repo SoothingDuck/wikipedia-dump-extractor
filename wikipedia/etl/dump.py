@@ -5,6 +5,7 @@ from dateutil.parser import parse
 import re
 import requests
 from bs4 import BeautifulSoup
+import mwparserfromhell
 
 
 class Site(object):
@@ -139,6 +140,18 @@ class Article(object):
                         if child_revision.tag.endswith("}text"):
                             self._text = child_revision.text
         return self._text
+
+    @property
+    def infoboxes(self):
+
+        tmp = mwparserfromhell.parse(self.text)
+
+        result = []
+        for template in tmp.filter_templates():
+            if "Infobox" in template.name:
+                tmp = re.split(r"\s+", template.name.strip())
+                result.append(tmp[-1].lower())
+        return(result)
 
     @property
     def links(self, max_length=1000):
