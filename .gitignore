@@ -12,3 +12,6 @@ DATA/log
 
 # Virtualenv
 .venv
+
+# nohup
+nohup.out
