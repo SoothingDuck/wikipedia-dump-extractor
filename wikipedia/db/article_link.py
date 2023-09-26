@@ -10,7 +10,7 @@ from .model import Redirection
 from sqlalchemy import Index
 from sqlalchemy import select
 
-from wikipedia.dump import Dump
+from wikipedia.etl.dump import Dump
 from wikipedia.etl.extract import DumpFileExtractor
 
 

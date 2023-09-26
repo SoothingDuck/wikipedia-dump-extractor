@@ -15,7 +15,7 @@ from lxml import etree
 from dateutil.parser import parse
 import re
 
-from wikipedia.dump import Article
+from wikipedia.etl.dump import Article
 from abc import ABC, abstractmethod
 import os
 import csv
@@ -162,7 +162,7 @@ class DumpFileExtractor(DumpExtractor):
 
 if __name__ == "__main__":
     import glob
-    from wikipedia.dump import Dump
+    from wikipedia.etl.dump import Dump
 
     for filename in glob.glob("DATA/dump/fr/*.bz2"):
         print(filename)

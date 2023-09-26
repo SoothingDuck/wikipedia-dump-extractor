@@ -7,7 +7,7 @@ from wikipedia.db import engine
 from wikipedia.db.model import Article
 from sqlalchemy import Index
 
-from wikipedia.dump import Dump
+from wikipedia.etl.dump import Dump
 from wikipedia.etl.extract import DumpFileExtractor
 
 from abc import ABC
