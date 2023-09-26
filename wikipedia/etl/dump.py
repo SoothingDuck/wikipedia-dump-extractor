@@ -148,12 +148,12 @@ class Article(object):
     @property
     def infoboxes(self):
 
-        result = []
+        result = set()
         for template in mwparserfromhell.parse(self.text).filter_templates():
             if "Infobox" in template.name:
                 tmp = str(template.name).replace("Infobox", "").strip()
-                result.append(tmp.lower())
-        return(result)
+                result.add(tmp.lower())
+        return(list(result))
 
     @property
     def links(self, max_length=1000):
