@@ -16,7 +16,7 @@ def batch_extract(lang, dir_mask, extract_function):
 
     for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*.bz2"))):
 
-        dump = Dump(dump_filename)
+        dump = Dump(dump_filename, lang)
 
         etl = DumpFileExtractor(dump, output_directory)
         loader = getattr(etl, extract_function)
@@ -35,7 +35,7 @@ def batch_extract_parallel(lang, dir_mask, extract_function):
 
     for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*.bz2"))):
 
-        dump = Dump(dump_filename)
+        dump = Dump(dump_filename, lang)
 
         etl = DumpFileExtractor(dump, output_directory)
         loader = getattr(etl, extract_function)

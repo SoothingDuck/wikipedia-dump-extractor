@@ -41,9 +41,14 @@ class Site(object):
 
 
 class Dump(object):
-    def __init__(self, filename):
+    def __init__(self, filename, lang="en"):
         self._filename = filename
         self._data = self._filename.split("-")
+        self._lang = lang
+
+    @property
+    def lang(self):
+        return self._lang
 
     @property
     def filename(self):
@@ -85,18 +90,38 @@ class Dump(object):
         return "<Dump {}>".format(self.filename)
 
 class Article(object):
-    def __init__(self, xml):
+
+    LANG = {
+        "fr" : {
+            "category" : "Catégorie",
+            "portal"   : "Portail",
+            "portal bar" : "Palette"
+        },
+        "en" : {
+            "category" : "Category",
+            "portal"   : "Portal",
+            "portal bar" : "Portal bar"
+        }
+    }
+
+    def __init__(self, xml, lang="en"):
         self._xml = xml
         self._title = None
         self._redirect_title = None
         self._id = None
         self._ns = None
 
+        self._lang = lang
+
         self._text = None
 
         self._links = None
         self._categories = None
         self._portals = None
+
+    @property
+    def lang(self):
+        return self._lang
 
     @property
     def xml(self):
@@ -167,8 +192,8 @@ class Article(object):
                     else:
                         link = m
 
-                    if not link.startswith("Category:") and not link.startswith(
-                        "Portal:"
+                    if not link.startswith("{}:".format(Article.LANG[self.lang]["category"])) and not link.startswith(
+                        "{}:".format(Article.LANG[self.lang]["portal"])
                     ):
                         if link.strip() != "" and len(link.strip()) <= max_length:
                             self._links.add(link.strip())
@@ -181,10 +206,10 @@ class Article(object):
             self._categories = set()
 
             if self.text is not None:
-                for m in re.findall(r"\[\[%s:(.*?)\]\]" % ("Category"), self.text):
+                for m in re.findall(r"\[\[%s:(.*?)\]\]" % (Article.LANG[self.lang]["category"]), self.text):
                     for category in m.split("|"):
                         if category.strip() not in ["", "*"]:
-                            self._categories.add("Category:{}".format(category.strip()))
+                            self._categories.add("{}:{}".format(Article.LANG[self.lang]["category"], category.strip()))
         return self._categories
 
     @property
@@ -194,16 +219,16 @@ class Article(object):
 
             if self.text is not None:
                 # {{Portal|Anarchism|Libertarianism}}
-                for m in re.findall(r"\{\{%s\|(.*?)\}\}" % ("Portal"), self.text):
+                for m in re.findall(r"\{\{%s\|(.*?)\}\}" % (Article.LANG[self.lang]["portal"]), self.text):
                     for portal in m.split("|"):
                         if portal.strip() != "":
-                            self._portals.add("Portal:{}".format(portal.strip()))
+                            self._portals.add("{}:{}".format(Article.LANG[self.lang]["portal"], portal.strip()))
 
                 # {{Portal bar|Biography|American Civil War|Illinois|United States|Politics|Law}}
-                for m in re.findall(r"\{\{%s\|(.*?)\}\}" % ("Portal bar"), self.text):
+                for m in re.findall(r"\{\{%s\|(.*?)\}\}" % (Article.LANG[self.lang]["portal bar"]), self.text):
                     for portal in m.split("|"):
                         if portal.strip() != "":
-                            self._portals.add("Portal:{}".format(portal.strip()))
+                            self._portals.add("{}:{}".format(Article.LANG[self.lang]["portal"], portal.strip()))
 
         return self._portals
 

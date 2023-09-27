@@ -58,7 +58,7 @@ class DumpFileExtractor(DumpExtractor):
 
         for _, element in etree.iterparse(f, events=("end",)):
             if element.tag == "{http://www.mediawiki.org/xml/export-0.10/}page":
-                yield (Article(element))
+                yield (Article(element, self.dump.lang))
             else:
                 continue
             element.clear()
