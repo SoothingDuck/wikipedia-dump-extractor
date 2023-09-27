@@ -133,13 +133,13 @@ class DumpFileExtractor(DumpExtractor):
                 infoboxwriter = csv.writer(
                     csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
                 )
-                infoboxwriter.writerow(["article_id", "infobox"])
+                infoboxwriter.writerow(["article_id", "article_title", "infobox"])
 
                 for article in self:
                     if article.redirect_title is None:
                         for infobox in article.infoboxes:
                             infoboxwriter.writerow(
-                                [article.id, infobox.strip()]
+                                [article.id, article.title.strip(), infobox.strip()]
                             )
 
     def extract_categories(self):

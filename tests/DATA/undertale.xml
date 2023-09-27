@@ -1,0 +1,404 @@
+  <page>
+    <title>Undertale</title>
+    <ns>0</ns>
+    <id>9604354</id>
+    <revision>
+      <id>206957301</id>
+      <parentid>206956758</parentid>
+      <timestamp>2023-08-15T15:02:41Z</timestamp>
+      <contributor>
+        <username>Aquilons</username>
+        <id>3367104</id>
+      </contributor>
+      <minor />
+      <comment>Révocation des modifications de [[Special:Contributions/2001:861:5201:830:3431:ADB8:DAE1:5714|2001:861:5201:830:3431:ADB8:DAE1:5714]] (retour à la dernière version de [[:User:RedScreen6|RedScreen6]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="69710" xml:space="preserve">{{Infobox Jeu vidéo
+ | titre           = Undertale
+ | langue du titre = en
+ | image           = 
+ | taille image    = 
+ | légende         = 
+ | alternative     = 
+ | développeur     = [[Toby Fox]]
+ | éditeur         = [[Toby Fox]]&lt;br /&gt;[[8-4]] &lt;small&gt;(versions consoles)&lt;/small&gt;
+ | distributeur    = 
+ | directeur       = [[Toby Fox]]
+ | scénariste      = 
+ | compositeur     = [[Toby Fox]]
+ | début du projet = 
+ | date            = '''Windows, OS X'''&lt;br /&gt;{{Date de sortie de jeu vidéo|INT|15 septembre 2015}}'''Linux'''&lt;br /&gt;{{Date de sortie de jeu vidéo|INT|17 juillet 2016}}'''PS4, PS Vita'''&lt;br /&gt;{{Date de sortie de jeu vidéo|INT|15 août 2017}}'''Nintendo Switch'''&lt;br /&gt;{{Date de sortie de jeu vidéo|JAP|15 septembre 2018|EUR|18 septembre 2018|USA|18 septembre 2018}}'''Xbox One, Xbox Series'''&lt;br /&gt;{{Date de sortie de jeu vidéo|INT|16 mars 2021}}
+ | genre           = [[Jeu vidéo de rôle|jeu de rôle]]
+ | mode            = [[Solo (jeu vidéo)|Un joueur]]
+ | plate-forme     = [[Android]], [[Microsoft Windows|Windows]], [[OS X]], [[Linux]], [[PlayStation 4]], [[PlayStation Vita]], [[Nintendo Switch]], [[Xbox One]], [[Xbox Series]]
+ | langue          = Anglais, japonais {{Note|Cependant, il existe des traductions officieuses comme la traduction française &lt;ref&gt;{{Lien web |langue=fr |titre=La traduction française d'Undertale est disponible ! |url=https://www.jeuxvideo.com/news/582467/la-traduction-francaise-d-undertale-est-disponible.htm |site=Jeuxvideo.com |consulté le=2021-07-10}}&lt;/ref&gt;.|groupe=a}}
+ | moteur de jeu   = {{Langue|en|GameMaker}}
+ | version         = 1.08
+ | évaluation      = 
+ | site web        = [http://undertale.com/ undertale.com]
+}}
+
+'''''{{Langue|en|Undertale}}''''' est un [[jeu vidéo]] de [[Jeu vidéo de rôle|jeu de rôle]] et [[Jeu vidéo indépendant|indépendant]] développé par [[Toby Fox]]. Le jeu propose de contrôler un enfant tombé dans l’''{{Langue|en|Underground}}'' (« souterrain »), une grande région isolée sous la surface de la Terre, séparée de la surface par une barrière magique et peuplée de [[monstre]]s. Le joueur interagit à plusieurs reprises avec ces monstres dans sa quête pour remonter à la surface, principalement via un système de combat mêlant tour-par-tour et {{Langue|en|[[shoot 'em up]]}}. Dans celui-ci, le joueur doit éviter des projectiles envoyés par les monstres rencontrés, et a ensuite la possibilité d'attaquer son adversaire pour le tuer, ou de l'épargner. Le choix de tuer ou épargner affecte le jeu, altérant les dialogues, les personnages, et la narration dépendant des choix effectués.
+
+Le jeu a été entièrement et indépendamment développé par [[Toby Fox]], un [[développeur]] et [[compositeur]] de nationalité [[États-Unis|américaine]], que ce soit dans l'écriture du scénario ou la composition des musiques, bien que certains personnages aient été dessinés par d'autres artistes. Parmi les inspirations du jeu, sont notamment cités les jeux de rôle des séries ''[[Mother (série)|Mother]]'' et ''[[Mario and Luigi]]'', ainsi que les ''[[Shoot 'em up#Manic shooter|manic shooters]]'' de ''[[Touhou Project]]'', et la [[Série télévisée|série]] comique britannique ''[[Mr Bean]]''. Dans la conception initiale d'''{{Langue|en|Undertale}}'', le jeu durait environ deux heures et devait sortir en milieu d'année 2014, le développement dure finalement près de trois ans du fait du rallongement considérable de la durée de la campagne, retardant la sortie.
+
+Le jeu est publié le {{date|15 septembre 2015}} sur [[Steam (logiciel)|Steam]] pour [[Microsoft Windows|Windows]] et [[OS X]] et sur [[Linux]] en {{date-|juillet 2016}}, tandis que des portages sur [[PlayStation 4]] et [[PlayStation Vita]] sont sortis le {{Date|15|août|2017}}, sur [[Nintendo Switch]] durant le mois de {{date|septembre 2018}} et sur les consoles [[Xbox One]] et [[Xbox Series]] le {{date|16|3|2021}}. Si les versions pour ordinateur ont été publiés par [[Toby Fox]] lui-même, les portages sur consoles ont quant à eux été assurés par l'entreprise japonaise de [[Localisation de jeu vidéo|localisation]] [[8-4]]. À sa sortie, ''Undertale'' est acclamé pour son écriture, sa thématique, son système de combat, sa musique, et son originalité ; de nombreux éloges étant également faits par rapport à l'histoire, aux dialogues, et aux personnages. Il se vend par la suite à plus d'un million d'exemplaires et est nommé pour plusieurs prix tels que celui de ''[[Game of the Year]]'' (« Jeu de l'année ») décerné par plusieurs [[Média vidéoludique|médias]] ainsi qu'à des conventions.
+
+Un [[Série dérivée|spin-off]] situé dans un univers alternatif à celui d'''Undertale'' et également développé par Toby Fox, ''[[Deltarune]]'', voit son premier chapitre sortir le {{date-|31 octobre 2018}}&lt;ref&gt;{{Lien web|titre=DELTARUNE|url=https://www.deltarune.com/help/|site=www.deltarune.com|consulté le=2019-11-04}}&lt;/ref&gt; et son deuxième le 17 septembre 2021.
+
+Le 16 septembre 2020, à l'occasion du cinquième anniversaire, un concert symphonique&lt;ref&gt;{{Lien web |langue=en |auteur= |titre=UNDERTALE 5th Anniversary Concert |url=https://www.youtube.com/watch?v=srZdDAJbHfc |site=youtube.com |date=16 septembre 2020 |consulté le=21 janvier 2021}}&lt;/ref&gt; (filmé en mai 2019 à Tokyo) est diffusé sur la chaine officielle [[YouTube|Youtube]] grâce à la collaboration de ''Fangamer'' et ''8-4''. De nouvelles chansons produites par [[Toby Fox]] ont également été ajoutées à la fin de la vidéo pour l'occasion.
+
+== Histoire ==
+[[Image:Undertale cosplay at Tsunacon 2016.JPG|thumb|[[Cosplay]] de quelques personnages d'Undertale : Sans, Undyne, Papyrus, Toriel, Grillby et Napstablook, au festival Tsunacon en 2016 à [[Rotterdam]], Pays-Bas.]]
+
+L'histoire d{{'}}''{{Langue|en|Undertale}}'' prend place dans l{{'}}''{{Langue|en|Underground}}'' (« souterrain »), une partie du monde où les [[monstre]]s, vivant autrefois en paix avec les [[Humanité|humains]], furent bannis après une guerre entre les deux races. Cette zone est séparée de la surface par une barrière magique imparfaite, le seul moyen d'y entrer se trouvant au mont Ebott&lt;ref name=&quot;Intro&quot;&gt;{{Citation jeu vidéo |langue=en| titre = Undertale | développeur  = Toby Fox | jour = 15 | mois = septembre | année = 2015 | version = 0.9.9.5}}&lt;/ref&gt;. Un jour, un enfant humain tombe dans l{{'}}''{{Langue|en|Underground}}'' en s'aventurant au sommet du mont. Il y rencontre Flowey, une [[fleur]] dotée d'une conscience apprenant les mécaniques de jeu et encourageant l'humain à augmenter son « {{Langue|en|LV}} », ou « {{Langue|en|LOVE}} », en gagnant de « l'{{Langue|en|EXP}} » en tuant des monstres{{Note|Dans les jeux de rôle, « LV » et « EXP » sont des abréviations pour [[Expérience (jeu de rôle)|« ''Level'' » (Niveau) et « ''Experience points'' » (Points d'expérience)]] respectivement, deux choses qu'il est généralement préférable d'augmenter&lt;ref&gt;{{Ouvrage|langue=en|prénom1=Michael E.|nom1=Moore|titre=Basics of Game Design|éditeur=A.K. Peters|année=2011|pages totales=400|passage=142|isbn=978-1-56881-433-9}}&lt;/ref&gt;.|groupe=a}}. Lorsque Flowey tente de tuer l'humain pour lui dérober son âme, celui-ci est secouru par Toriel, un monstre bipède femelle ressemblant à une chèvre, qui le prend sous sa protection et lui apprend à résoudre les puzzles et terminer les combats de manière pacifique. Elle prévoit initialement d'adopter l'humain afin de le protéger d'Asgore Dreemurr, le roi du souterrain.
+
+L'humain quitte finalement Toriel et part à la recherche du château d'Asgore, qui abrite la barrière menant à la surface. Sur son chemin, l'humain rencontre plusieurs monstres, tels que les frères Sans et Papyrus, deux squelettes sentinelles ; Undyne, chef de la garde royale ; Alphys, scientifique du royaume ; et Mettaton, un robot animateur de télévision créé par Alphys. Certains de ces monstres sont combattus et l'humain a alors le choix de les tuer ou de les épargner en leur parlant et en gagnant leur confiance. Les monstres épargnés deviennent alors des amis. Durant l'aventure, l'humain apprend que les monstres ont été contraints de vivre dans l'''Undergound'' à la suite d'une terrible guerre entre eux et les humains, guerre remportée par ces derniers. Mais longtemps après, Asriel, fils d'Asgore et de Toriel, se prend d'amitié pour  un enfant humain lui aussi tombé dans le souterrain et qui a été ensuite adopté par la famille royale. Un jour, l'humain est mortellement empoisonné par des fleurs. Lorsque Asriel ramène le corps de son ami aux humains, ceux-ci l'attaquent et le tuent, croyant que l'état de l'enfant a été causé par Asriel. En apprenant cela, Asgore est déterminé à leur déclarer la guerre. Il cherche donc depuis le moyen de casser la barrière séparant le souterrain de la surface. Pour ce faire il a besoin de sept âmes humaines. Ainsi, il tue chaque humain tombant dans l'&lt;nowiki/&gt;''Undergound'' pour prélever son âme. Lors des évènements du jeu, Asgore possède six âmes humaines.
+
+La fin du jeu dépend de la façon dont le joueur résout les combats avec les monstres&lt;ref name=&quot;Polygon Gameplay&quot; /&gt;{{,}}{{Note|Les différentes fins sont référées sous l'appellation de ''{{Langue|en|neutral run}}'' (fin neutre) ; ''{{Langue|en|pacifist run}}'' (fin pacifiste) ; et ''{{Langue|en|no mercy run}}'' (fin sans pitié) ou ''{{Langue|en|genocide run}}'' (fin génocidaire)&lt;ref name=&quot;Kotaku Secrets&quot; /&gt;{{,}}&lt;ref name=&quot;IGN Review&quot;&gt;{{Lien web |langue=en|url=http://ign.com/articles/2016/01/13/undertale-review |titre=Undertale Review |nom=Plagge |prénom=Kallie |site=[[IGN (site web)|IGN]] |éditeur=IGN Entertainment |date=12 janvier 2016|consulté le=13 janvier 2016}}&lt;/ref&gt;{{,}}&lt;ref name=&quot;avclub&quot; /&gt;.|groupe=a}}. 
+
+=== Fin neutre ===
+La fin dite « neutre » est généralement la première à laquelle accède le joueur. Elle se produit si le joueur n'a pas tué tous les monstres du jeu et ne s'est pas lié d'amitié avec certains personnages secondaires.
+
+Durant cette fin, l'humain rencontre Sans le squelette juste avant d'entrer dans le palais du roi Asgore. Celui-ci lui révèle alors que « {{Langue|en|LOVE}} » et « {{Langue|en|EXP}} » sont en réalité des [[Acronymie|acronymes]], respectivement pour « ''{{Langue|en|'''L'''evel '''O'''f '''V'''iolenc'''E'''}}'' » (Niveau de violence) et « ''{{Langue|en|'''EX'''ecution '''P'''oints}}'' » (Points d'exécution). Il effectue alors un rapide jugement de l'âme du joueur sur la base de ces deux compteurs. L'humain arrive ensuite au château d'Asgore et apprend que l'âme d'un monstre est également nécessaire pour traverser la barrière. S'ensuit un combat contre Asgore. Après avoir été vaincu par l'humain, Asgore est achevé par Flowey qui s'empare des âmes humaines, le transformant en un énorme monstre. Durant le combat final, les âmes humaines se rebellent petit-à-petit et finissent par se libérer de l'emprise de Flowey. À l'issue de ce combat, le joueur a la possibilité d'achever Flowey ou de le laisser fuir. L'humain quitte ensuite l'''Underground'' et reçoit quelque temps plus tard un appel téléphonique de Sans lui décrivant l'état du souterrain depuis son départ, celui-ci variant en fonction des actions du joueur au cours de l'aventure. 
+
+=== Fin pacifiste ===
+La fin dite « pacifiste » se produit si le joueur a préalablement terminé une partie « neutre » &lt;ref name=&quot;avclub&quot;&gt;{{Lien web |lang=en| url = http://www.avclub.com/article/undertale-dares-players-make-mistake-they-can-neve-228716 | titre = Undertale dares players to make a mistake they can never take back | prénom = William | nom = Hughes | date = 9 décembre 2015| consulté le = 2 mars 2016| site = [[The A.V. Club]] |éditeur=[[The Onion]]}}&lt;/ref&gt;. Si celui-ci n'a tué aucun monstre au cours de cette partie, il sera alors renvoyé sur une ancienne sauvegarde peu avant le combat contre Asgore avec la possibilité d'effectuer la dernière quête nécessaire à l'obtention de cette fin.
+
+Alors que le joueur rencontre Asgore et que ce dernier s'apprête à combattre, Toriel intervient et stoppe les hostilités, bientôt rejointe par les autres monstres avec lesquels l'humain s'est lié d'amitié. Flowey apparaît alors et les prend tous au piège, utilisant leurs âmes pour prendre une forme plus puissante. Il est alors révélé que Flowey est en réalité l'âme d'Asriel (avant d'avoir été ensorcelée par les humains), le défunt enfant d'Asgore et de Toriel, qui souhaite réinitialiser le monde pour revenir à un point où lui et son meilleur ami étaient encore en vie, car incapable de ressentir la moindre émotion depuis sa transformation en fleur. Le joueur finit par l'emporter en ramenant à la raison les âmes de ses amis prisonniers d'Asriel. Après avoir été vaincu, Asriel implore le pardon de l'humain, dont il révèle le véritable nom Frisk, et avoue qu'il lui rappelait Chara, son ami mort. Il détruit alors la barrière séparant le souterrain de l'extérieur avant de se retirer. La barrière brisée, les monstres s'en vont réintégrer le monde des humains à la surface, tandis que Frisk se voit offrir le choix d'accepter ou non Toriel comme mère adoptive.
+
+=== Fin génocidaire ===
+La fin dite « sans pitié » ou « génocidaire » se produit si le joueur décide de tuer tous les monstres du jeu&lt;ref name=&quot;Kotaku Secrets&quot; /&gt;{{,}}&lt;ref name=&quot;avclub&quot; /&gt;. Celle-ci a la particularité d'impacter non seulement la fin, mais également l'ambiance générale du jeu, qui devient nettement plus sombre. Une grande partie de la narration disparaît également au fil de l'aventure et de l'élimination des monstres.
+
+À mesure qu'il tue des monstres, l'âme de Frisk est progressivement corrompue par le L.O.V.E amassé par le joueur, et la moralité de Chara commence elle aussi à être corrompue, ce dernier aidant maintenant le joueur dans son entreprise génocidaire en lui dictant le nombre de monstres à tuer dans chaque zone. Flowey lui-même, au départ ravi que le joueur écoute ses incitations au massacre, commence à prendre peur en réalisant que Frisk/Chara est à présent capable de le tuer. À l'arrivée au château d'Asgore, Sans tente d'arrêter l'humain, mais finit par être tué à son tour. Au moment d'affronter Asgore, Flowey tue le roi en espérant être épargné, mais finit par être exécuté par Frisk sans aucune intervention du joueur. Après cette dernière mort, Chara apparaît et détruit ce qu'il reste de l'univers des monstres. Pour pouvoir rejouer au jeu, Frisk doit alors donner son âme en échange de la restauration de l'univers. Cette décision affecte toute partie future, où la présence de Chara se fait plus marquée, quelle que soit la route prise.
+
+== Système de jeu ==
+''{{Langue|en|Undertale}}'' est un [[Jeu vidéo de rôle|jeu de rôle]] en vue de dessus&lt;ref name=&quot;rps funniest&quot;&gt;{{Lien web |langue=en|url=https://www.rockpapershotgun.com/2015/12/16/funniest-pc-game-2015/ |titre=The RPS Advent Calendar, Dec 16th: Undertale |date=16 décembre 2015|site=[[Rock, Paper, Shotgun]] |consulté le=16 mai 2016}}&lt;/ref&gt;. En jeu, le joueur contrôle un enfant humain et doit remplir des objectifs afin de progresser dans l'histoire&lt;ref name=&quot;Destructoid Review&quot; /&gt;. Durant l'aventure, le joueur explore un souterrain rempli de villes et de cavernes contenant plusieurs puzzles à résoudre&lt;ref name=&quot;Destructoid Review&quot;&gt;{{Lien web |langue=en|url=http://www.destructoid.com/review-undertale-312265.phtml |titre=Review: Undertale |nom=Davis |prénom=Ben |site=[[Destructoid]] |éditeur=ModernMethod |date=24 septembre 2015|consulté le=21 janvier 2016}}&lt;/ref&gt;{{,}}&lt;ref name=&quot;Boing Boing&quot;&gt;{{Lien web |langue=en|url=http://boingboing.net/2015/09/24/undertale-game.html |titre=In Undertale, you can choose to kill monsters — or understand them |nom=Hudson |prénom=Laura |site=[[Boing Boing]] |éditeur=Happy Mutants |date=24 septembre 2015|consulté le=20 janvier 2016}}&lt;/ref&gt;. Le souterrain est le monde des monstres, certains d'entre-eux combattant le joueur&lt;ref name=&quot;Boing Boing&quot; /&gt; ; celui-ci a alors le choix entre tuer le monstre attaquant, fuir, ou &quot;l'épargner&quot; (spare), ce qui permet généralement de se lier d'amitié avec lui&lt;ref name=&quot;Destructoid Review&quot; /&gt;{{,}}&lt;ref&gt;{{Lien web |langue=en|url=https://www.rockpapershotgun.com/2015/10/15/conversations-with-myself-on-undertales-universal-appeal/ |titre=Conversations With Myself: On Undertale's Universal Appeal |auteur=Smith, Adam |date=15 octobre 2015|site=[[Rock, Paper, Shotgun]] |consulté le=16 mai 2016}}&lt;/ref&gt;.
+
+Lorsque le joueur rencontre un ennemi, que ce soit dans des événements scriptés ou par rencontre aléatoire, il entre en mode combat. En combat, le joueur contrôle un petit cœur rouge représentant son âme, et doit éviter les attaques lancées par le monstre opposé, à la manière d'un « ''[[Shoot 'em up#Manic shooter|manic shooter]]'' »&lt;ref name=&quot;Destructoid Review&quot; /&gt;{{,}}&lt;ref name=&quot;Boing Boing&quot; /&gt;. À mesure que le jeu avance, de nouveaux éléments sont introduits, tels que des obstacles colorés demandant au joueur de rester immobile ou de passer à travers, et des combats de [[boss]] changeant la façon dont le joueur contrôle le cœur&lt;ref name=&quot;RPS: Scrollbars&quot;&gt;{{Lien web |langue=en|url=http://www.rockpapershotgun.com/2015/09/21/undertale/ |titre=The RPG Scrollbars: Undertale |nom=Cobbett |prénom=Richard |site=[[Rock, Paper, Shotgun]] |date=21 septembre 2015|consulté le=31 octobre 2015}}&lt;/ref&gt;. Le joueur peut choisir d'attaquer son ennemi, invoquant alors un pressage de bouton en rythme, la défaite de celui-ci rapportant de l'« EXP » et de l'or au joueur&lt;ref name=&quot;Escapist EarthBound&quot;&gt;{{Lien web |langue=en|url=http://www.escapistmagazine.com/news/view/124536-Undertale-is-an-EarthBound-Inspired-Indie-RPG |titre=Undertale is an EarthBound Inspired Indie RPG |nom=Bogos |prénom=Steven |site=[[The Escapist (magazine)|The Escapist]] |éditeur=Defy Media |date=2 juin 2013|consulté le=21 janvier 2016}}&lt;/ref&gt;. Autrement, il peut utiliser l'option « {{Langue|en|ACT}} » (agir, ''&quot;to act&quot;'' en anglais) pour effectuer des actions non-violentes variant selon le monstre ennemi&lt;ref name=&quot;Destructoid Review&quot; /&gt;. Si le joueur utilise les bonnes actions face à l'ennemi, il peut avoir le choix de l'épargner et de terminer le combat sans le tuer&lt;ref name=&quot;IndieGames Guilt&quot;&gt;{{Lien web |langue=en|url=http://indiegames.com/2015/09/guilt_friendship_and_carrot_mo.html |titre = Guilt, Friendship, and Carrot Monsters — Undertale and the Consequences of Easy Violence |nom=Couture |prénom=Joel |site=IndieGames.com |éditeur=UBM TechWeb |date=22 septembre 2015|consulté le=20 janvier 2016}}&lt;/ref&gt;. Pour terminer certains combats de boss de manière pacifique, le joueur doit attendre que le personnage qu'ils combattent ait fini son dialogue. L'histoire du jeu possède plusieurs embranchements et fins dépendant des monstres que le joueur décide de tuer ou de ne pas tuer ; de ce fait, il est possible de terminer le jeu sans tuer le moindre ennemi&lt;ref name=&quot;Polygon Gameplay&quot;&gt;{{Lien web |langue=en|url=http://www.polygon.com/2013/7/7/4497618/undertale-combines-classic-rpg-gameplay-with-a-pacifist-twist |titre=UnderTale combines classic RPG gameplay with a pacifist twist |nom=Farokhmanesh |prénom=Megan |site=Polygon |éditeur=[[Vox Media]] |date=7 juillet 2013|consulté le=25 septembre 2015}}&lt;/ref&gt;.
+
+Les monstres conversent avec le joueur durant les combats, le jeu précisant au joueur les actions et sentiments du monstre&lt;ref name=&quot;RPGamer Review&quot;&gt;{{Lien web |langue=en|url=http://rpgamer.com/games/indie/undertale/reviews/undertalestrev1.html |titre=Undertale - Review |nom=Welhouse |prénom=Zach |site=RPGamer |date=8 octobre 2015|consulté le=21 janvier 2016}}&lt;/ref&gt;. Les attaques ennemies changent selon la manière dont le joueur interagit avec eux : si celui-ci fait des choix non-violents, les attaques deviennent plus faciles, et inversement si celui-ci décide d'être violent, les attaques deviennent plus difficiles&lt;ref name=&quot;Boing Boing&quot; /&gt;{{,}}&lt;ref name=&quot;RPGamer Review&quot; /&gt;. Le jeu dépend également d'un certain nombre d'éléments [[Métafiction|méta-fictionnels]] dans son système de jeu et son histoire&lt;ref&gt;{{Lien web |langue=en| url = https://www.wired.com/2016/01/metafiction-games/ | titre = The Best New Videogames Are All About … Videogames | prénom = Jack | nom = Muncy | date = 18 janvier 2016| consulté le = 18 janvier 2016| site = [[Wired (magazine)|Wired]] |éditeur=[[Condé Nast]]}}&lt;/ref&gt;. Ainsi, lorsque le joueur combat un boss lors d'une nouvelle partie, le dialogue est changé en fonction des actions prises lors des parties précédentes&lt;ref name=&quot;Kotaku Secrets&quot;&gt;{{Lien web |langue=en|url=http://steamed.kotaku.com/players-still-havent-figured-out-all-of-undertales-secr-1733048190 |titre=Players Still Haven't Figured Out All Of Undertale's Secrets |nom=Grayson |prénom=Nathan |site=[[Kotaku]] |éditeur=[[Gawker Media]] |date=28 septembre 2015|consulté le=17 février 2016}}&lt;/ref&gt;.
+
+== Développement ==
+Le développement d{{'}}''{{Langue|en|Undertale}}'', presque entièrement assuré par Toby Fox, s'étend sur près de trois ans&lt;ref name=&quot;GI Show&quot;&gt;{{Lien web|langue=en|url=http://www.gameinformer.com/b/podcasts/archive/2015/10/15/gi-show-_1320_-yoshis-woolly-world_2c00_-star-wars_3a00_-battlefront_2c00_-undertale-toby-fox.aspx |titre=GI Show – Yoshi's Woolly World, Star Wars: Battlefront, Undertale's Toby Fox |nom=Turi |prénom=Tim |site=[[Game Informer]] |éditeur=[[GameStop]] |date=15 octobre 2015|consulté le=20 janvier 2016}}&lt;/ref&gt;. Il a été principalement financé par [[financement participatif]] par le biais d'une campagne sur le site [[Kickstarter]]. La campagne est lancée le {{date-|25 juin 2013}} avec pour objectif de récolter un total de {{nombre|5000|$}} ; un total de {{nombre|51124|$}} pour {{nombre|2398|participants}} est finalement collecté au terme de la campagne un mois plus tard, soit plus de dix fois l'objectif originellement fixé par le développeur&lt;ref name=&quot;Joystiq Kickstarter&quot;&gt;{{Lien web |langue=en|url=https://www.engadget.com/2013/07/29/crowdfund-bookie-july-21-27-terminator-2-undertale-last-dr/ |titre=Crowdfund Bookie, July 21–27: Terminator 2, UnderTale, Last Dream |nom=Suszek |prénom=Mike |site=[[Engadget]] |éditeur=AOL Tech|date=29 juillet 2013|consulté le=20 janvier 2016}}&lt;/ref&gt;. Le système de combat du jeu a été créé sur le système de création de jeux ''{{Langue|en|GameMaker: Studio}}''&lt;ref name=&quot;Existential Gamer&quot;&gt;{{Lien web |langue=en|url=http://existentialgamer.com/interview-toby-fox-of-undertale |titre=INTERVIEW: TOBY FOX OF UNDERTALE |nom=Feeld |prénom=Julian |site=Existential Gamer |éditeur=Feeld |date=9 octobre 2015|consulté le=20 janvier 2016}}&lt;/ref&gt;. Le souhait de son développeur est alors de créer un jeu de rôle différent du modèle traditionnel, qu'il a souvent trouvé « ennuyeux à jouer »&lt;ref name=&quot;Seagaia&quot;&gt;{{Lien web |langue=en|url=https://seagaia.wordpress.com/2013/05/25/toby-foxs-undertale-dev-2-dev-interview-1/ |titre=Toby Fox's Undertale – DEV 2 DEV INTERVIEW #1 |nom=Hogan |prénom=Sean |site=Seagaia |date=25 mai 2013|consulté le=20 janvier 2016}}&lt;/ref&gt;. Il s'est par la suite décidé à créer un jeu avec des « personnages intéressants » et « utilisant le moyen comme instrument de narration... plutôt que d'avoir des abstractions entre l'histoire et le système de jeu complètement séparées »&lt;ref name=&quot;Seagaia&quot;/&gt;.
+
+Toby Fox a travaillé de manière totalement indépendante, à l'exception de certains dessins ; ce choix est justifié par sa volonté de ne pas dépendre de quelqu'un d'autre&lt;ref name=&quot;GI Show&quot;/&gt;. Avant le début du développement, il n'a que peu d'expérience dans le domaine du développement de jeu ; lui et ses trois frères ont souvent utilisé [[RPG Maker 2000]] pour faire des [[Jeu vidéo de rôle|jeux de rôle]], bien que peu furent terminés. Il a également travaillé sur un certain nombre de [[hack rom]] d{{'}}''[[EarthBound]]'' lorsqu'il était au lycée&lt;ref name=&quot;Seagaia&quot;/&gt;. Temmie Chang est la principale assistante artistique, ayant fourni la plupart des [[Sprite (jeu vidéo)|sprites]] et des images conceptuelles&lt;ref name=&quot;Kickstarter&quot;&gt;{{Lien web |langue=en|url=https://www.kickstarter.com/projects/1002143342/undertale/description |titre=UnderTale by Toby Fox |nom=Fox |prénom=Toby |site=[[Kickstarter]] |date=25 juin 2013}}&lt;/ref&gt;. De l'avis du développeur, le style artistique du jeu serait probablement resté le même s'il avait eu accès à une plus grande équipe d'artistes, trouvant notamment que « l'audience s'attache plus à des personnages dessinés simplement qu'en détail », bénéficiant notamment de l'usage de gag visuels dans les dessins&lt;ref name=&quot;Kill Screen&quot;&gt;{{Lien web |langue=en|url=https://killscreen.com/articles/behind-humor-toby-foxs-undertale/ |titre=Behind the humor of Toby Fox's Undertale |nom=Bennett |prénom=David |site=Kill Screen |éditeur=Kill Screen Media |date=22 octobre 2015|consulté le=20 janvier 2016}}&lt;/ref&gt;.
+
+=== Conception ===
+La phase défensive des combats est inspirée de la série de ''[[Shoot 'em up#Manic shooter|manic shooters]] [[Touhou Project]]''&lt;ref name=&quot;Escapist&quot;&gt;{{Lien web |langue=en|url=http://www.escapistmagazine.com/news/view/125361-Undertale-Dev-Every-Monster-Should-Feel-Like-an-Individual |titre=Undertale Dev: &quot;Every Monster Should Feel Like an Individual&quot; |nom=Bogos |prénom=Steven |site=[[The Escapist (magazine)|The Escapist]] |éditeur=Defy Media |date=25 juin 2013 |consulté le=20 janvier 2016}}&lt;/ref&gt;. Lors de la conception du système de combat, l'objectif principal de Toby Fox était de créer une mécanique qui lui plairait personnellement&lt;ref name=&quot;Mary Sue&quot; /&gt;, souhaitant qu'''Undertale'' possède un système de combat aussi attirant que celui d'un ''[[Super Mario RPG: Legend of the Seven Stars|Super Mario RPG]]'' et d'un ''[[Mario and Luigi: Superstar Saga|Mario &amp; Luigi: Superstar Saga]]''. Il souhaitait également faire en sorte que le « [[Expérience (jeu de rôle)#Levelling|''{{Langue|en|levelling}}'']] » ne soit nécessaire à aucun moment en le rendant optionnel, limitant également le nombre de [[Quête (jeu de rôle)|quêtes secondaires]], impliquant généralement de multiples retours en arrière&lt;ref name=&quot;GI Show&quot; /&gt;. Selon Toby Fox, la difficulté du jeu a été dosée pour être simple et amusante, demandant notamment l'aide de plusieurs de ses amis. Il décrit ainsi la difficulté comme {{Citation|optimale}}&lt;ref&gt;{{Lien vidéo |langue=en|titre=Toph &amp; Scar Show S1 SEASON FINALE - ft. Creator of Undertale, Toby Fox, and Storm Heroes |url=https://www.youtube.com/watch?v=_U0vagkvUV4 |site=[[YouTube]] | éditeur= [[Google]] |date=15 décembre 2015 |consulté le=21 janvier 2016 |time=41:54 |ref=harv}}.&lt;/ref&gt;.
+
+Le système de dialogue du jeu est inspiré de ''[[Shin Megami Tensei]]'', notamment la mécanique permettant au joueur de parler aux monstres pour éviter le combat&lt;ref name=&quot;Escapist&quot; /&gt;. Toby Fox entendait ainsi développer cette mécanique, l'échec d'une négociation résultant obligatoirement en un combat dans ''Shin Megami Tensei'', ajoutant {{Citation|vouloir créer un système satisfaisant [son] envie de parler aux monstres}}&lt;ref name=&quot;Boing Boing&quot; /&gt;. C'est en développant cet aspect du jeu que l'idée d'une fin sans tuer aucun ennemi s'est manifestée {{Citation|naturellement}}&lt;ref name=&quot;IndieGames Thinking&quot;&gt;{{Lien web |url=http://indiegames.com/2015/10/thinking_for_ourselves_-_toby_.html |titre=Thinking for Ourselves - Toby Fox on Fighting and Introspection in Undertale |nom=Couture |prénom=Joel |site=IndieGames.com |éditeur=UBM TechWeb |date=October 27, 2015 |consulté le=20 janvier 2016 }}.&lt;/ref&gt;. Il précise cependant n'avoir jamais considéré une suppression totale de la possibilité de combattre&lt;ref name=&quot;IndieGames Thinking&quot; /&gt;. Lorsque questionné sur la difficulté de jouer au jeu sans tuer personne, Toby Fox répondit en expliquant qu'il s'agit {{Citation|du cœur de l'un des principaux thèmes du jeu}}, encourageant les joueurs à y réfléchir d'eux-mêmes&lt;ref name=&quot;IndieGames Thinking&quot; /&gt;.
+
+=== Écriture ===
+L'écriture du jeu a particulièrement été influencée par la [[Cyberculture|culture internet]] ainsi que par des comédies telles que ''[[Mr Bean]]''. Toby Fox cite également l'atmosphère dérangeante d{{'}}''{{Langue|en|[[EarthBound]]}}'' comme influence majeure&lt;ref name=&quot;GI Show&quot; /&gt;. Son désir de {{Citation|bouleverser des concepts rarement mis en question dans la majorité des jeux}} a par ailleurs grandement influencé le développement d{{'}}''{{Langue|en|Undertale}}''&lt;ref name=&quot;IndieGames Thinking&quot; /&gt;. Il ajoute que l'écriture des dialogues s'est révélée plus simple une fois la voix et l'humeur des personnages déterminées et que la création du monde s'est faite naturellement, car celui-ci se devait d'exprimer les histoires de ceux qui vivent dedans&lt;ref name=&quot;Kill Screen&quot; /&gt;. Faire passer les monstres du jeu comme des {{Citation|individus à part entière}} était également un des objectifs de Toby Fox, citant la série des ''[[Final Fantasy]]'' comme contre-exemple : {{Citation|les monstres dans les RPG comme ''{{Langue|en|Final Fantasy}}'' sont tous les mêmes… ça n'a aucun sens}}&lt;ref name=&quot;Escapist&quot; /&gt;.
+
+Le personnage de Toriel, un des premiers à apparaître dans l'aventure, a été créé comme une parodie des personnages [[tutoriel]], Toby Fox citant notamment son aversion envers le personnage de Fay, compagnon de [[Link (The Legend of Zelda)|Link]] dans ''[[The Legend of Zelda: Skyward Sword]]'', dans lequel les réponses aux différentes énigmes sont souvent révélées juste avant. Toby Fox exprime aussi son sentiment que les RPG manquent souvent de figure maternelle, citant les jeux ''[[Pokémon]]'', ''[[Mother (jeu vidéo)|Mother]]'' et ''EarthBound'', dans lesquels il explique que les mères des différents personnages principaux ont selon lui plus le rôle de {{Citation|symbole que de personnage}}&lt;ref name=&quot;Seagaia&quot; /&gt;. C'est en réponse à cette impression qu'il écrit le personnage de Toriel comme {{Citation|une mère qui, je l'espère, agit comme une mère}} et qui {{Citation|s'inquiète réellement}} pour le joueur et ses actions&lt;ref name=&quot;Seagaia&quot; /&gt;.
+
+=== Musique ===
+La bande-son du jeu a été entièrement composée par Toby Fox. D'après celui-ci, qui se décrit comme un musicien autodidacte, les versions finales de la plupart des musiques ont été composées rapidement, la musique principale du jeu, « Undertale », étant la seule à avoir eu droit à plusieurs versions durant le développement. La bande-son est notamment inspirée des jeux de rôle de la [[Super Nintendo Entertainment System|Super Nintendo]]&lt;ref name=&quot;GI Show&quot;/&gt;, tels qu{{'}}''{{Langue|en|EarthBound}}''&lt;ref name=&quot;Toph Scar 1:15&quot; /&gt;, ainsi que du [[bande dessinée en ligne|webcomic]] ''[[Homestuck]]'', pour lequel Toby Fox a également composé certaines musiques&lt;ref name=&quot;GI Show&quot; /&gt;. De manière générale, les influences musicales de Toby Fox sont multiples et variées, étant principalement vidéoludiques&lt;ref name=&quot;Mary Sue&quot;&gt;{{Lien web |langue=en|url=http://www.themarysue.com/interview-undertale-game-creator-toby-fox/ |titre=Interview: Undertale Game Creator Toby Fox |nom=Isaac |prénom=Chris |site=The Mary Sue |date=December 10, 2015 |consulté le=January 20, 2016 |archiveurl=https://www.webcitation.org/6efyLpcIv |archivedate=January 20, 2016 |deadurl=no}}.&lt;/ref&gt;{{,}}&lt;ref name=&quot;Toph Scar 1:15&quot; /&gt;. Selon lui, plus de 90 % des musiques ont été composées spécialement pour le jeu&lt;ref name=&quot;Existential Gamer&quot;/&gt;. ''Megalovania'', la musique utilisée lors du combat contre Sans, a par ailleurs déjà été utilisée par le passé dans ''Homestuck'' et dans un [[Hack rom|ROM hack]] d{{'}}''EarthBound'' développé par Toby Fox lui-même&lt;ref name=&quot;USgamer Music&quot;&gt;{{Lien web |langue=en|url=http://www.usgamer.net/articles/note-block-beat-box-listening-to-hopes-and-dreams-from-undertale|titre=Note Block Beat Box: Listening to Hopes and Dreams from Undertale |nom=Oxford |prénom=Nadia |site=USgamer |éditeur=Gamer Network |date=21 avril 2016 |consulté le=22 avril 2016}}.&lt;/ref&gt;. Pour chaque section du jeu, la musique a été composée avant la programmation, aidant à « voir comment une scène devait se dérouler »&lt;ref name=&quot;Existential Gamer&quot; /&gt;. Un [[Tracker (musique)|tracker]] était originellement utilisé pour composer la bande-son, avant d'être abandonné par le développeur qui le trouvait trop difficile à utiliser. Il décide finalement de jouer plusieurs sections d'une même musique séparément, avant de les reconnecter sur une même piste&lt;ref name=&quot;Toph Scar 1:15&quot;&gt;{{lien web |langue=en| nom1=Scarnewman |prénom1=Bobby |nom2=Aldenderfer |prénom2=Kris |nom3=Fox |prénom3=Toby |titre=Toph &amp; Scar Show S1 SEASON FINALE – ft. Creator of Undertale, Toby Fox, and Storm Heroes |url=https://www.youtube.com/watch?v=_U0vagkvUV4 |site=[[YouTube]] }}.&lt;/ref&gt;.
+
+== Sortie ==
+Le jeu sort le {{date-|15 septembre 2015}} sur [[Microsoft Windows]] et Mac [[macOS|OS X]]&lt;ref name=&quot;Ars Technica 2015&quot; /&gt;, le {{date-|17 juillet 2016}} sur [[Linux]]&lt;ref&gt;{{Lien web|lang=en|nom=Fox|prénom=Toby|titre=UNDERTALE is now available for Linux on Steam!|site=[[Twitter]]|date=17 juillet 2016|url=https://twitter.com/UnderTale/status/754657063318454272|consulté le=17 juillet 2016}}&lt;/ref&gt;. Un [[Patch (informatique)|patch]] est publié en {{date-|janvier 2016}} afin de corriger plusieurs bugs et modifier la forme des attaques bleues afin d'aider les personnes [[Daltonisme|daltoniennes]]&lt;ref&gt;{{Lien web |lang=en|url=http://www.polygon.com/2016/1/21/10808740/undertale-patch-update-new-content |titre=Undertale's first patch claims to fix bugs, but fans found hidden content |auteur=Frank, Allegra |date=21 janvier 2016 |site=Polygon |éditeur=[[Vox Media]] |consulté le=2 mai 2016}}&lt;/ref&gt;. En marge de l'[[E3 2017]], [[Sony Interactive Entertainment|Sony]] annonce le portage d'''Undertale'' pour les consoles [[PlayStation 4]] et [[Playstation Vita]], sorti le {{date-|15 août}} de la même année. Cette version inclut notamment une traduction en japonais ainsi qu'une édition en boîte&lt;ref&gt;{{Lien web|lang=en|url=http://www.eurogamer.net/articles/2017-06-13-undertale-is-coming-to-ps4-and-vita-this-summer|titre=Undertale is coming to PS4 and Vita this summer|nom=Matulef|prénom=Jeffrey|éditeur=Eurogamer|date=13 juin 2017|consulté le=13 juin 2017}}&lt;/ref&gt;, le tout étant développé et publié par l'entreprise de [[Localisation de jeu vidéo|localisation]] japonaise [[8-4]]&lt;ref&gt;{{Lien web|lang=en|url=https://blog.playstation.com/2017/08/08/breaking-down-borders-undertales-journey-to-japan-and-back/|titre=Breaking Down Borders: Undertale’s Journey to Japan and Back|éditeur=[[Sony]]|date=8 août 2017|consulté le=16 mars 2021}}&lt;/ref&gt;. Toby Fox exprime par ailleurs un intérêt à sortir le jeu sur d'autres plate-formes, précisant cependant ne pas pouvoir l'importer sur les consoles de [[Nintendo]] sans reprogrammer entièrement le jeu&lt;ref name=&quot;GI Show&quot; /&gt;. Un portage sur [[Nintendo Switch]] est cependant annoncé le {{date-|8 mars 2018}}&lt;ref&gt;{{Lien web|url=http://fr.ign.com/undertale-nintendo-switch/34754/news/undertale-annonce-sur-nintendo-switch|titre=Undertale annoncé sur Nintendo Switch|date=9 mars 2018|consulté le=19 mars 2018}}&lt;/ref&gt;. Celui-ci a été rendu possible par un partenariat entre la firme nippone et YoYo Games afin de permettre l'exportation de jeux créés sous ''GameMaker Studio 2'' sur la Switch&lt;ref&gt;{{Lien web|lang=en|url=https://www.polygon.com/2018/3/9/17100548/gamemaker-studio-2-nintendo-switch-undertale|titre=Undertale coming to Switch brings indie games’ GameMaker Studio engine with it|site=Polygon |éditeur=[[Vox Media]]|date=9 mars 2018|consulté le=30 septembre 2018}}&lt;/ref&gt;. Le jeu sort finalement dans un premier temps au [[Japon]] le {{date-|15 septembre 2018}} à l'occasion des trois ans du jeu&lt;ref&gt;{{Lien web|lang=ja|url=https://topics.nintendo.co.jp/c/article/0d8b4c6e-9164-11e8-b123-063b7ac45a6d.html|titre=記念すべき9月15日に『UNDERTALE』発売へ！|éditeur=[[Nintendo]]|date=1 août 2018|consulté le=30 septembre 2018}}&lt;/ref&gt; avant de sortir dans le reste du monde trois jours plus tard&lt;ref&gt;{{Lien web|url=http://www.jeuxvideo.com/news/910886/undertale-sortira-sur-les-switch-europeennes-le-18-septembre.htm|titre=Undertale sortira sur les Switch européennes le 18 septembre|éditeur=[[Jeuxvideo.com]]|date=29 août 2018|consulté le=30 septembre 2018}}&lt;/ref&gt;. Le jeu est également porté sur les consoles [[Xbox One]] et [[Xbox Series]] le 16 mars 2021 via le [[Xbox Game Pass|Game Pass]]&lt;ref&gt;{{Lien web|url=https://www.jeuxvideo.com/videos/1377706/undertale-debarque-enfin-sur-xbox-via-le-game-pass.htm|titre=Undertale débarque enfin sur Xbox via le Game Pass|éditeur=[[Jeuxvideo.com]]|date=15 mars 2021|consulté le=16 mars 2021}}&lt;/ref&gt;. Ces différents portages sont eux aussi assurés par 8-4.
+
+Des produits dérivés d'''Undertale'' sont plus tard mis en vente, incluant des figurines et de peluches basés sur les personnages du jeu&lt;ref&gt;{{Lien web |langue=en|url=http://www.destructoid.com/get-your-name-in-early-for-these-undertale-figures-340372.phtml |titre=Get your name in early for these Undertale figures |auteur=Rowen, Nic |date=9 février 2016 |site=[[Destructoid]] |éditeur=ModernMethod |consulté le=2 mai 2016}}&lt;/ref&gt;. La bande-son officielle du jeu est mise en vente simultanément à la sortie du jeu&lt;ref&gt;{{Lien web |url=http://store.steampowered.com/app/391570/ |titre=UNDERTALE Soundtrack |site=[[Steam]] |éditeur=[[Valve Corporation]] |consulté le=2 mai 2016}}&lt;/ref&gt;. Deux autres albums officiels de reprises des musiques du jeu sont publiés : l'album [[Heavy metal|metal]] et [[Electro]] ''Determination'' de Richard Edward Bichler (connu sur YouTube sous le pseudo de &quot;RichaadEB&quot;) et Amie Waters (à l'époque Ace) en 2015&lt;ref&gt;{{Lien web |lang=en|url=http://steamed.kotaku.com/undertale-has-an-officially-sanctioned-fan-album-and-i-1751497766 |titre=Undertale has an officially sanctioned fan album, and it's awesome. |auteur=Grayson, Nathan |date=6 janvier 2016 |site=[[Kotaku]] |éditeur=[[Gawker Media]] |consulté le=2 mai 2016}}&lt;/ref&gt;{{,}}&lt;ref&gt;{{Lien web |lang=en|url=https://determination-ut.bandcamp.com/album/determination |titre=Determination |auteur1=RichaadEB |auteur2=Waters, Amie |site=[[Bandcamp]] |consulté le=21 octobre 2022}}&lt;/ref&gt;, (album accompagné d'une suite intitulée ''The Purple Side''&lt;ref&gt;{{Lien web | lang=en | url=https://determination-ut.bandcamp.com/album/determination-the-purple-side | titre=Determination |auteur1=RichaadEB | auteur2=Waters, Amie |site=[[Bandcamp]] |consulté le=15 novembre 2022}}&lt;/ref&gt; en 2016) et l'album [[jazz]] ''Live at Grillby's'' de Carlos Eiene en 2016&lt;ref&gt;{{Lien web |lang=en|url=http://www.gameinformer.com/b/news/archive/2016/02/06/official-undertale-jazz-album-released.aspx |titre=Official Undertale Jazz Album Live At Grillby's Released |auteur=Gwaltney, Javy |date=6 février 2016 |site=[[Game Informer]] |éditeur=[[GameStop]] |consulté le=2 mai 2016}}&lt;/ref&gt;. Un autre album jazz nommé ''Prescription for Sleep'' est également publié en 2016 par le [[Saxophone|saxophoniste]] [[Norihiko Hibino]] et le [[Piano|pianiste]] Ayaki Sato&lt;ref&gt;{{Lien web |lang=en| url = http://kotaku.com/1789701441 | titre= Undertale just got a nice new musical tribute  | prénom= Kirk | nom= Hamilton | date = 5 décembre 2016|consulté le=5 décembre 2016 | éditeur= [[Kotaku]] }}&lt;/ref&gt;.
+
+== Accueil ==
+{{Infobox Notes de jeu vidéo
+|Jeuxvideo.com = 16/20&lt;ref name=&quot;jv.com&quot;&gt;{{Lien web|titre=Test - UnderTale : Une des claques de la sphère indépendante ?|url=http://www.jeuxvideo.com/test/450900/undertale-une-des-claques-de-la-sphere-independante.htm|site=[[Jeuxvideo.com]]|date=24 novembre 2015|consulté le=26 avril 2016|auteur=Panthaa}}.&lt;/ref&gt;
+|Gamekult =  9/10&lt;ref name=&quot;gk&quot;&gt;{{Lien web|titre=Test : Undertale|url=http://www.gamekult.com/jeux/test-undertale-SU3050588185t.html#pc|site=[[Gamekult]]|date = 24 novembre 2015 |auteur = ExServ|consulté le=4 juin 2016}}.&lt;/ref&gt;
+|Gameblog = 10/10&lt;ref name=&quot;gameblog&quot;&gt;{{Lien web|url=http://www.gameblog.fr/tests/2344-undertale-pc|titre=Test de UnderTale : Sans arme, ni haine, ni violence|éditeur=[[Gameblog]]|date=22 décembre 2015|consulté le=24 janvier 2017}}.&lt;/ref&gt;
+|IGN = 10/10&lt;ref name=&quot;ign&quot;&gt;{{Lien web|lang=en|url=http://www.ign.com/articles/2016/01/13/undertale-review|titre=Undertale Review|éditeur=[[IGN (site web)|IGN]]|date=12 janvier 2016|consulté le=24 janvier 2017}}.&lt;/ref&gt;
+| média numérique a  = [[PC Gamer]] &lt;small&gt;([[États-Unis|US]])&lt;/small&gt;
+| note numérique a 1 = 91 %&lt;ref name=&quot;pcgamer&quot;&gt;{{en}} {{Lien web|url=http://www.pcgamer.com/undertale-review/|titre=Test de PC Gamer|éditeur=pcgamer.com}}.&lt;/ref&gt;
+|Metacritic = 92 % &lt;small&gt;(fondé sur 43 critiques)&lt;/small&gt;&lt;ref name=&quot;metacritic&quot;&gt;{{Lien web|titre=''{{Langue|en|Undertale}}''|url=http://www.metacritic.com/game/pc/undertale|site=[[Metacritic]]|consulté le=1 avril 2018}}.&lt;/ref&gt;
+}}
+
+=== Critiques ===
+''{{Langue|en|Undertale}}'' reçoit un accueil critique très élogieux, totalisant un score de 92 % sur l’agrégateur de critiques [[Metacritic]] sur la base de {{nobr|43 critiques}}, faisant de lui le troisième jeu Windows le mieux noté pour l'année 2015&lt;ref name=&quot;metacritic&quot; /&gt;, et obtenant notamment 16/20 sur [[Jeuxvideo.com]]&lt;ref name=&quot;jv.com&quot; /&gt;, 9/10 sur [[Gamekult]]&lt;ref name=&quot;gk&quot;/&gt; ou encore 10/10 sur [[IGN (site web)|IGN]]&lt;ref name=&quot;ign&quot;/&gt;. Les critiques rendent particulièrement hommage à l'écriture du jeu, ses personnages et son système de combat. Le net encense son scénario complexe, ses musiques et ses personnages très caractéristiques. Tyler Hicks de [[Gamespot]] le décrit ainsi comme {{Citation|un des RPG les plus progressistes et novateurs depuis longtemps}}&lt;ref&gt;{{Lien web|lang=en|url=http://www.gamespot.com/reviews/undertale-review/1900-6416315/|titre=Undertale review|site=gamespot.com|date=20 novembre 2015|consulté le=24 janvier 2017}}.&lt;/ref&gt;, tandis que Kallie Plagge d'IGN le juge comme {{Citation|une expérience construite de main de maître}}&lt;ref name=&quot;ign&quot;/&gt;. En fin d'année 2015, le jeu compte près de {{nombre|530343|copies}} vendues selon le site [[Steam Spy]]&lt;ref&gt;{{Lien web|lang=en|url=http://www.gamasutra.com/view/news/262548/GTA_5_leads_Steam_Spys_list_of_bestselling_2015_Steam_games.php|titre=GTA 5 leads Steam Spy's list of best-selling 2015 Steam games|site=gamasutra.com|date=22 décembre 2015|consulté le=24 janvier 2017}}.&lt;/ref&gt;, dépassant le million de ventes au début du mois de {{date-|février 2016}}&lt;ref&gt;{{Lien web|lang=en|url=https://venturebeat.com/2016/04/13/stardew-valley-is-one-of-the-best-selling-pc-games-of-the-year-as-it-surpasses-1m-copies-sold/|titre=Stardew Valley is one of the best-selling PC games of the year as it surpasses 1M copies sold|site=venturebeat.com|date=13 avril 2016|consulté le=24 janvier 2017}}.&lt;/ref&gt;. La version [[Steam]] du jeu comptabilise plus de trois millions et demi de joueurs en {{date-|juin 2018}}&lt;ref&gt;{{Lien web|lang=en|url=https://arstechnica.com/gaming/2018/07/steam-data-leak-reveals-precise-player-count-for-thousands-of-games/|titre=Valve leaks Steam game player counts; we have the numbers|éditeur=[[Ars Technica]]|date=7 juin 2018|consulté le=30 septembre 2018}}&lt;/ref&gt;. La version japonaise dématérialisée pour [[PlayStation 4]] et [[PlayStation Vita]] dépasse quant à elle les {{Nombre|100000|unités}} vendues en {{date-|février 2018}}&lt;ref&gt;{{Lien web|lang=en|url=https://gematsu.com/2018/02/undertale-ps4-ps-vita-sales-top-100000-japan|titre=Undertale PS4 and PS Vita sales top 100,000 in Japan|éditeur=Gematsu|date=15 février 2018|consulté le=1 avril 2018}}&lt;/ref&gt;.
+
+==== Critiques du système de combats ====
+Daniel Tack de ''[[Game Informer]]'' décrit le système de combat comme {{Citation|incroyablement nuancé}}, mettant l'accent sur l'unicité de chaque ennemi rencontré&lt;ref name=&quot;Game Informer Review&quot;&gt;{{Lien web |lang=en|url=http://www.gameinformer.com/games/undertale/b/pc/archive/2015/10/01/an-enchanting-exhilarating-journey.aspx |titre=An Enchanting, Exhilarating Journey - Undertale |site=[[Game Informer]] |éditeur=[[GameStop]] |date=October 1, 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;, de même pour ExServ de Gamekult&lt;ref name=&quot;gk&quot;/&gt;. Austin Walker de ''[[Giant Bomb]]'' loue quant à lui la difficulté des combats, la décrivant comme {{Citation|non conventionnelle, intelligente, et par moments vraiment difficile}}&lt;ref name=&quot;Giant Bomb Review&quot;&gt;{{Lien web |lang=en|url=http://www.giantbomb.com/reviews/undertale-review/1900-715/ |titre=Undertale Review |site=[[Giant Bomb]] |éditeur=[[CBS Interactive]] |date=September 25, 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt; tandis que Plagge d'IGN salue la possibilité offerte d'éviter le combat en optant pour la conversation amicale à la place&lt;ref name=&quot;IGN Review&quot; /&gt;.
+
+==== Critiques du scénario ====
+Un autre aspect du jeu largement noté positivement est son écriture et sa narration, qualifiée d'{{Citation|excellente}} par IGN&lt;ref name=&quot;IGN Review&quot; /&gt; tandis que Croshaw de ''{{Langue|en|The Escapist}}'' considère ''{{Langue|en|Undertale}}'' comme le jeu le mieux écrit de 2015&lt;ref name=&quot;Escapist Review&quot;&gt;{{Lien web |lang=en|url=http://www.escapistmagazine.com/articles/view/video-games/columns/extra-punctuation/14860-Undertale-for-Best-Written-Game-2015 |titre=Undertale May Be This Year's Best Written Game |nom=Croshaw |prénom=Ben |site=[[The Escapist (magazine)|The Escapist]] |éditeur=Defy Media |date=October 28, 2015 |consulté le=27 octobre 2015}}.&lt;/ref&gt;. Ben Davis de [[Destructoid]] loue quant à lui les personnages du jeu ainsi que la comédie présente, comparant le jeu à ''[[Cave Story]]''&lt;ref name=&quot;Destructoid Review&quot; /&gt;. C'est également le cas de Richard Cobbett de ''[[PC Gamer]]'', celui-ci ajoutant cependant que la narration a ses points faibles&lt;ref name=&quot;PC Gamer Review&quot;&gt;{{Lien web |lang=en|url=http://www.pcgamer.com/undertale-review/ |titre=Undertale review |nom=Cobbett |prénom=Robert |site=[[PC Gamer]] |éditeur=Future US |date=September 29, 2015 |consulté le=29 septembre 2015}}.&lt;/ref&gt;, un point de vue appuyé par Ned Price de [[Breitbart News|Breitbart]] qui salue {{Citation|l'esprit et le charme}} transmis par le jeu via son écriture, avant de noter certains dialogues {{Citation|à la limite de l'humour aléatoire repoussant}}&lt;ref name=&quot;Breitbart Review&quot;&gt;{{Lien web |lang=en|url=http://www.breitbart.com/tech/2015/11/22/undertale-review-a-charming-independent-rpg-with-a-lot-of-soul/ |titre='Undertale' Review: A Charming Independent RPG with a Lot of SOUL |nom=Price |prénom=Ned |site=[[Breitbart News]] |date=22 novembre 2015 |consulté le=17 février 201}}.&lt;/ref&gt;. Chez plusieurs critiques français, si la qualité de l'écriture est tout autant saluée, la nécessité de comprendre l'anglais est vu comme un point faible&lt;ref name=&quot;jv.com&quot;/&gt;{{,}}&lt;ref name=&quot;gameblog&quot;/&gt;.
+
+==== Critiques des graphismes ====
+Les graphismes ont quant à eux connus une réception plus nuancée, étant qualifiés de {{Citation|simples, mais expressifs}} dans la critique de ''{{Langue|en|Giant Bomb}}''&lt;ref name=&quot;Giant Bomb Review&quot; /&gt; ou décrits comme {{Citation|pas toujours très beaux […] et souvent moches}} par Plagge d'IGN, qui précise que la musique et les animations à côté compensent ce point&lt;ref name=&quot;IGN Review&quot; /&gt;, point de vue partagé par Panthaa de Jeuxvideo.com&lt;ref name=&quot;jv.com&quot; /&gt;. D'autres critiques, comme celle de ''Breitbart'', décrivent le style artistique comme {{Citation|fade}}&lt;ref name=&quot;Breitbart Review&quot; /&gt;, Croshaw de ''{{Langue|en|The Escapist}}'' ajoutant qu'il {{Citation|oscille entre le basique mais fonctionnel et le mauvais tout court}}&lt;ref name=&quot;Escapist Review&quot; /&gt;. Les graphismes ont cependant eu quelques retours positifs : Daniel Tack de ''{{Langue|en|Game Informer}}'' affirmant que ceux-ci correspondent parfaitement aux personnages et à l'ambiance générale&lt;ref name=&quot;Game Informer Review&quot; /&gt; tandis que Richard Cobbett de ''{{Langue|en|PC Gamer}}'' note quant à lui sa capacité à transmettre des émotions&lt;ref name=&quot;PC Gamer Review&quot; /&gt;.
+
+==== Critiques de la bande-son ====
+La bande-son se voit très appréciée des critiques, qui la considèrent comme une des raisons du succès du jeu, en particulier pour l'usage de [[leitmotiv]]s de plusieurs personnages incorporés dans plusieurs pistes&lt;ref name=&quot;Gamasutra Music1&quot;&gt;{{Lien web |langue=en| url = http://www.gamasutra.com/blogs/JasonYu/20160406/269573/An_Examination_of_Leitmotifs_and_Their_Use_to_Shape_Narrative_in_UNDERTALE__Part_1_of_2.php | titre = An Examination of Leitmotifs and Their Use to Shape Narrative in UNDERTALE - Part 1 of 2 | prénom= Jason | nom= Yu | date = 3 avril 2016| consulté le = 21 avril 2016 | site = [[Gamasutra]] | éditeur = UBM TechWeb}}.&lt;/ref&gt;{{,}}&lt;ref name=&quot;Gamasutra Music2&quot;&gt;{{Lien web |langue=en| url = http://www.gamasutra.com/blogs/JasonYu/20160414/270290/An_Examination_of_Leitmotifs_and_Their_Use_to_Shape_Narrative_in_UNDERTALE__Part_2_of_2.php | titre = An Examination of Leitmotifs and Their Use to Shape Narrative in UNDERTALE - Part 2 of 2 | prénom= Jason | nom= Yu | date = 14 avril 2016 | consulté le = 21 avril 2016 | site = [[Gamasutra]] | éditeur = UBM TechWeb}}.&lt;/ref&gt;. En particulier, ''Hopes and Dreams'', se jouant lors du combat contre un des boss finaux, incorpore une grande partie des leitmotivs entendus plus tôt durant le jeu, décrit par Nadia Oxford d'US Gamer comme « un moyen parfait de couronner l'aventure »&lt;ref name=&quot;USgamer Music&quot; /&gt;. Elle remarque également que la piste démontre parfaitement l'habilité de Toby Fox à « transformer d'anciennes musiques en expériences nouvelles », visible à travers toute la bande-son du jeu&lt;ref name=&quot;USgamer Music&quot; /&gt;. Tyler Hicks de [[GameSpot]] compare quant à lui la musique du jeu à des ''[[chiptune]]s''&lt;ref name=&quot;GameSpot Review&quot;&gt;{{Lien web |langue=en|url=http://www.gamespot.com/reviews/undertale-review/1900-6416315/ |titre=Undertale Review |nom=Hicks |prénom=Tyler |site=[[GameSpot]] |éditeur=[[CBS Interactive]] |date=20 novembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;.
+
+Un an après sa sortie, son développeur Toby Fox explique qu'il a été largement surpris par la popularité acquise par son jeu et que cela l'avait rendu [[Anxiété|anxieux]]&lt;ref&gt;{{Lien web|lang=en| url =http://www.gamasutra.com/view/news/281395/Undertale_dev_reflects_on_what_its_like_to_have_your_game_become_a_phenomenon.php | titre = Undertale dev reflects on what it's like to have your game become a phenomenon | prénom= Alex | nom= Wawro | date = September 14, 2016 | consulté le= 14 septembre 2016 | éditeur= [[Gamasutra]] }}.&lt;/ref&gt;.
+
+=== Récompenses ===
+''{{Langue|en|Undertale}}'' a remporté plusieurs prix de la part de [[Média vidéoludique|plusieurs médias du jeu vidéo]]. Il a ainsi remporté le prix du « Jeu de l'année » de ''{{Langue|en|Zero Punctuation}}''&lt;ref&gt;{{Lien web|lang=en|url=http://www.escapistmagazine.com/videos/view/zero-punctuation/116617-Top-5-Best-and-Worst-Games-of-2015|titre=Top 5 Games of 2015|site=escapistmagazine.com|date=6 janvier 2016|consulté le=24 janvier 2017}}.&lt;/ref&gt; ainsi que celui de « Jeu du mois » d'{{date-|octobre 2015}} de ''[[Rock, Paper, Shotgun]]''&lt;ref name=&quot;RPS GOTM&quot; /&gt;. Le jeu remporte également le sondage de « Meilleur jeu de tous les temps » lancé par [[GameFAQs]]&lt;ref name=&quot;GameFAQs&quot; /&gt; et a été nommé « Meilleur jeu PC » par [[Destructoid]]&lt;ref name=&quot;Destructoid Award&quot; /&gt; et [[IGN (site web)|IGN]]&lt;ref name=&quot;IGN PC&quot; /&gt;. Il est également nommé parmi les meilleurs RPG PC de l'année 2015 par Jeuxvideo.com&lt;ref&gt;{{Lien web|url=http://www.jeuxvideo.com/dossier/452188/pc-les-meilleurs-jeux-de-2015/452362.htm|titre=Les meilleurs RPG de 2015 sur PC|site=jeuxvideo.com|date=8 décembre 2015|consulté le=24 janvier 2017}}.&lt;/ref&gt;.
+
+Le jeu est nommé dans plusieurs catégories lors de l'[[Independent Games Festival]] de 2016&lt;ref name=&quot;IGF&quot;&gt;{{Lien web|lang=en|url=http://www.igf.com/2016winners.html|titre=The 17th Independent Games Festival Finalists|éditeur=[[Independent Games Festival]]|consulté le=24 janvier 2017}}.&lt;/ref&gt; dans les catégories « Grand prix Seumas McNally », « Excellence en son », « Excellence en narration ». Il remporte par ailleurs le « Prix du public »&lt;ref name=&quot;IGF&quot; /&gt;{{,}}&lt;ref name=&quot;IGFwinners&quot; /&gt;. Il a également été nommé « Jeu financé participativement le plus abouti » lors de la [[South by Southwest|SXSW]], qui lui dessert aussi le « Prix Matthew Crump de l'innovation culturelle »&lt;ref name=&quot;SXSW&quot; /&gt;.
+
+{| class=&quot;wikitable collapsible collapsed&quot; style=&quot;width:100%;&quot;
+! Liste des prix et nominations d'''Undertale''
+|-
+| style=&quot;padding:0; border:none;&quot;|
+{| class=&quot;wikitable sortable plainrowheaders&quot; style=&quot;border:none; margin:0; width:100%;&quot;
+|-
+! scope=&quot;col&quot;| Date !! scope=&quot;col&quot;| Prix !! scope=&quot;col&quot;| Catégorie !! scope=&quot;col&quot;| Nommé !! scope=&quot;col&quot;| Résultat
+|-
+| {{date-|30 octobre 2015}}
+! scope=&quot;row&quot;| Jeu du mois d'octobre de ''[[Rock, Paper, Shotgun]]''
+| Jeu du mois
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;RPS GOTM&quot;&gt;{{Lien web |lang=en|url=https://www.rockpapershotgun.com/2015/10/13/undertale-game-of-the-month/ |titre=Game of the Month: October – Undertale |éditeur=[[Rock, Paper, Shotgun]] |date=October 30, 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|27 novembre 2015}}
+! scope=&quot;row&quot;| Global Game Awards 2015
+| Meilleur jeu indépendant
+| ''Undertale''
+| {{Lauréat|place=Silver|Deuxième}}&lt;ref name=&quot;Global Game Awards&quot;&gt;{{Lien web |lang=en|url=http://www.game-debate.com/awards/2015 |titre=Global Game Awards 2015 |éditeur=Game-Debate |date=27 novembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|1 décembre 2015}}
+! scope=&quot;row&quot;| Meilleurs jeux vidéo de 2015 du ''[[Time (magazine)|Time]]''
+| Meilleur jeu
+| ''Undertale''
+| {{Lauréat|place=Bronze|{{tri|Nominatedi|Neuvième}}}}&lt;ref name=&quot;Time&quot;&gt;{{Lien web |lang=en|url=http://time.com/4106659/top-10-video-games/ |titre=Top 10 Video Games |nom=Peckham |prénom=Matt |éditeur=[[Time (magazine)|Time]]|date={{1er|décembre}} 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;3&quot;|{{date-|3 décembre 2015}}
+! scope=&quot;row&quot; rowspan=&quot;3&quot;| The Game Awards 2015
+| Meilleur jeu indépendant
+| ''Undertale''
+| {{Nom}}&lt;ref name=&quot;The Game Awards&quot;&gt;{{Lien web|lang=en|url=https://www.vg247.com/2015/12/04/the-game-awards-2015-winners/ |titre=The Game Awards 2015 – Game of the Year goes to The Witcher 3 |nom=Nunneley |prénom=Stephany |éditeur=VG247|date=4 décembre 2015 |consulté le=15 janvier 2016}}.&lt;/ref&gt;
+|-
+| [[Games for Change]]
+| ''Undertale''
+| {{Nom}}&lt;ref name=&quot;The Game Awards&quot; /&gt;
+|-
+| Meilleur jeu vidéo de rôle
+| ''Undertale''
+| {{Nom}}&lt;ref name=&quot;The Game Awards&quot; /&gt;
+|-
+| {{date-|4 décembre 2015}}
+! scope=&quot;row&quot;| Meilleurs jeux vidéo de 2015 de ''[[Vice (magazine)|Vice]]''
+| Meilleur jeu
+| ''Undertale''
+| {{Lauréat|place=Bronze|{{tri|Nominatedh|Huitième}}}}&lt;ref name=&quot;Vice Best&quot;&gt;{{Lien web|lang=en|url=https://www.vice.com/en_ca/read/the-top-20-video-games-of-2015-according-to-vice-999 |titre=The Best 20 Video Games of 2015 |nom=Diver |prénom=Mike |éditeur=[[Vice (magazine)|Vice]]|date=4 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;2&quot;|{{date-|15 décembre 2015}}
+! scope=&quot;row&quot;| Meilleurs jeux PC de 2015 de ''[[Rock, Paper, Shotgun]]''
+| Jeu PC le plus amusant
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;rps funniest&quot; /&gt;
+|-
+! scope=&quot;row&quot;| Prix ''Good Game'' de 2015
+| Jeu de l'année
+| ''Undertale''
+| {{Nom}}&lt;ref name=&quot;Good Game Awards&quot;&gt;{{Lien web|lang=en|url=http://www.abc.net.au/tv/goodgame/stories/s4371946.htm |titre=Game of the Year - Part 1 |éditeur=[[Australian Broadcasting Corporation]] |date=15 décembre 2015 |consulté le=17 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|16 décembre 2015}}
+! scope=&quot;row&quot;| Meilleur jeu de tous les temps de [[GameFAQs]]
+| Meilleur jeu de tous les temps
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;GameFAQs&quot;&gt;{{Lien web|lang=en|url=http://www.polygon.com/2015/12/16/10323192/undertale-gamefaqs-best-game-ever |titre=Undertale wins GameFAQs' Best Game Ever contest |nom=Frank |prénom=Allegra |éditeur=Polygon|date=16 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|18 décembre 2015}}
+! scope=&quot;row&quot;| Jeux de l'année de [[GameSpot]]
+| Jeu de l'année
+| ''Undertale''
+| {{Lauréat|place=Bronze|{{tri|Nominateda|Dix-neuvième}}}}&lt;ref name=&quot;GameSpot GOTY&quot;&gt;{{Lien web|lang=en|url=http://www.gamespot.com/articles/game-of-the-year-2015-countdown-20-16/1100-6432501/ |titre=Game of the Year 2015 Countdown: #20 - #16 |éditeur=[[GameSpot]] |date=18 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|22 décembre 2015}}
+! scope=&quot;row&quot;| Prix de l'année 2015 de ''The Jimquisition''
+| Jeu de l'année
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;Jimquisition Awards&quot;&gt;{{Lien web|lang=en|url=http://www.thejimquisition.com/2015/12/the-jimquisition-game-of-the-year-awards-2015/ |titre=The Jimquisition Game of the Year Awards 2015 |nom=Sterling |prénom=Jim |éditeur=The Jimquisition |date=21 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|22 décembre 2015}}
+! scope=&quot;row&quot;| Jeux de l'année de [[Destructoid]]
+| Meilleur jeu PC
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;Destructoid Award&quot;&gt;{{Lien web|lang=en|url=http://www.destructoid.com/destructoid-s-award-for-best-pc-game-of-2015-goes-to--328410.phtml |titre=Destructoid's award for Best PC Game of 2015 goes to... |nom=Hansen |prénom=Steven |éditeur=[[Destructoid]] |date=22 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|25 décembre 2015}}
+! scope=&quot;row&quot;| Meilleurs jeux de 2015 de ''[[The Escapist (magazine)|The Escapist]]''
+| Meilleur jeu
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;Escapist Best Game&quot;&gt;{{Lien web|lang=en|url=http://www.escapistmagazine.com/articles/view/video-games/features/15167-Best-Games-of-2015.3 |titre=The Escapist's Best Games of 2015 |page=3 |éditeur=[[The Escapist (magazine)|The Escapist]] |date=25 décembre 2015 |consulté le=17 février 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;2&quot;| {{date-|28 décembre 2015}}
+! scope=&quot;row&quot;| Meilleurs jeux de 2015 d'[[Ars Technica]]
+| Meilleur jeu
+| ''Undertale''
+| {{Lauréat|place=Bronze|{{tri|Nominatedk|Cinquième}}}}&lt;ref name=&quot;Ars Technica 2015&quot;&gt;{{Lien web|lang=en|url=https://arstechnica.com/gaming/2015/12/the-best-video-games-of-2015-as-picked-by-the-ars-editors/4/ |titre=The best video games of 2015, as picked by the Ars editor |page=4 |nom=Orland |prénom=Kyle |éditeur=[[Ars Technica]] |date=28 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+! scope=&quot;row&quot; rowspan=&quot;3&quot;| Prix de l'année 2015 de [[Giant Bomb]]
+| Meilleure surprise
+| ''Undertale''
+| {{Lauréat|place=Silver|Deuxième}}&lt;ref name=&quot;Giant Bomb 1&quot;&gt;{{Lien web|lang=en|url=http://www.giantbomb.com/articles/giant-bombs-2015-game-of-the-year-awards-day-one-t/1100-5316/ |titre=Giant Bomb's 2015 Game of the Year Awards: Day One Text Recap |éditeur=[[Giant Bomb]] |date=28 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|30 décembre 2015}}
+| Meilleurs débuts
+| Toby Fox
+| {{Lauréat|place=Silver|Deuxième}}&lt;ref name=&quot;Giant Bomb 3&quot;&gt;{{Lien web|lang=en|url=http://www.giantbomb.com/articles/giant-bombs-2015-game-of-the-year-awards-day-three/1100-5318/ |titre=Giant Bomb's 2015 Game of the Year Awards: Day Three Text Recap |éditeur=[[Giant Bomb]]|date=30 décembre 2015 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|1 janvier 2016}}
+| Jeu de l'année
+| ''Undertale''
+| {{Lauréat|place=Bronze|{{tri|Nominatedi|Septième}}}}&lt;ref name=&quot;Giant Bomb 5&quot;&gt;{{Lien web|lang=en|url=http://www.giantbomb.com/articles/giant-bombs-2015-game-of-the-year-awards-day-five-/1100-5320/ |titre=Giant Bomb's 2015 Game of the Year Awards: Day Five Text Recap |éditeur=[[Giant Bomb]] |date={{1er|janvier}} 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| {{date-|7 janvier 2016}}
+! scope=&quot;row&quot;| Meilleurs jeux de 2015 de ''[[Zero Punctuation]]''
+| Jeu de l'année
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;Zero Punctuation&quot;&gt;{{Lien web|lang=en|url=http://www.escapistmagazine.com/videos/view/zero-punctuation/116617-Top-5-Best-and-Worst-Games-of-2015 |titre=Top 5 Games of 2015 |éditeur=[[The Escapist (magazine)|The Escapist]]|date=7 janvier 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;2&quot;| {{date-|12 janvier 2016}}
+! scope=&quot;row&quot; rowspan=&quot;2&quot;| Meilleurs jeux de 2015 d'[[IGN (site web)|IGN]]
+| Jeu PC de l'année
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;IGN PC&quot;&gt;{{Lien web|lang=en|url=http://ign.com/wikis/best-of-2015/PC_Game_of_the_Year |titre=PC Game of the Year |éditeur=[[IGN (site web)|IGN]] |date=12 janvier 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| Meilleure histoire
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;IGN Story&quot;&gt;{{Lien web|lang=en|url=http://au.ign.com/wikis/best-of-2015/Best_Story |titre=Best Story |éditeur=[[IGN (site web)|IGN]] |date=12 janvier 2016 |consulté le=17 février 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;3&quot;| {{date-|18 février 2016}}
+! scope=&quot;row&quot; rowspan=&quot;3&quot;| [[Academy of Interactive Arts &amp; Sciences|DICE Awards]]
+| Succès notable en réalisation de jeu
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;DICE&quot;&gt;{{Lien web|lang=en|url=http://www.polygon.com/2016/1/13/10760412/dice-awards-2016-nominees |titre=DICE Awards finalists include Fallout 4, Witcher 3, Life is Strange and more |nom=Frank |prénom=Allegra |éditeur=Polygon |date=13 janvier 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| Prix Sprite DICE
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;DICE&quot; /&gt;
+|-
+| Jeu de rôle/massivement multijoueur de l'année
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;DICE&quot; /&gt;
+|-
+| rowspan=&quot;7&quot;| {{date-|16 mars 2016}}
+! scope=&quot;row&quot; rowspan=&quot;3&quot;| Game Developers Choice Awards 2016
+| Innovation Award
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;GDC&quot;&gt;{{Lien web|lang=en|url=http://www.vg247.com/2016/01/08/the-witcher-3-metal-gear-solid-5-lead-nominees-for-2016-game-developers-choice-awards/ |titre=The Witcher 3, Metal Gear Solid 5 lead nominees for GDC 2016 Awards |nom=Nunneley |prénom=Stephany |éditeur=VG247|date=8 janvier 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| Meilleurs débuts
+| Toby Fox
+| {{nom}}&lt;ref name=&quot;GDC&quot; /&gt;
+|-
+| Meilleurs narration
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;GDC&quot; /&gt;
+|-
+! scope=&quot;row&quot; rowspan=&quot;4&quot;| [[Independent Games Festival]] Awards 2016
+| Grand Prix Seumas McNally
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;IGF1&quot;&gt;{{Lien web|lang=en|url=http://www.vg247.com/2016/01/06/her-story-2016-igf-awards/ |titre=Her Story, Undertale, Darkest Dungeon receive multiple 2016 IGF Award nominations |nom=Nunneley |prénom=Stephany |éditeur=VG247|date=6 janvier 2016 |consulté le=21 janvier 2016}}.&lt;/ref&gt;
+|-
+| Excellence en son
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;IGF1&quot; /&gt;
+|-
+| Excellence en narration
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;IGF1&quot; /&gt;
+|-
+| Prix du public
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;IGFwinners&quot;&gt;{{Lien web|lang=en|url=http://www.gamasutra.com/view/news/268277/Her_Story_takes_home_top_honors_at_the_18th_annual_IGF_Awards.php |titre=Her Story takes home top honors at the 18th annual IGF Awards |éditeur=[[Gamasutra]] |date=16 mars 2016 |consulté le=16 mars 2016}}.&lt;/ref&gt;
+|-
+| rowspan=&quot;5&quot;|{{date-|19 mars 2016}}
+! scope=&quot;row&quot; rowspan=&quot;5&quot;| [[South by Southwest|SXSW]] Gaming Awards
+| Jeu de l'année
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;SXSW nom&quot;&gt;{{Lien web|lang=en|url=http://www.polygon.com/2016/1/25/10830286/sxsw-gaming-award-nominees-2016 |titre=Bloodborne, Metal Gear Solid 5 among SXSW Gaming Award nominees |nom=Frank |prénom=Allegra |éditeur=Polygon |date=25 janvier 2016 |consulté le=17 février 2016}}.&lt;/ref&gt;
+|-
+| Excellence en système de jeu
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;SXSW nom&quot; /&gt;
+|-
+| Jeu financé participativement le plus abouti
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;SXSW&quot;&gt;{{Lien web|lang=en|url=http://www.polygon.com/2016/3/21/11277046/sxsw-gaming-awards-winners-2016 |titre=The Witcher 3 takes top honors at yet another award show, the SXSW Gaming Awards |nom=Sarkar |prénom=Samit |éditeur=Polygon|date=21 mars 2016 |consulté le=5 juin 2016}}.&lt;/ref&gt;
+|-
+| Nouvelle propriété intellectuelle la plus prometteuse
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;SXSW nom&quot; /&gt;
+|-
+| Prix Matthew Crump de l'innovation culturelle
+| ''Undertale''
+| {{Lauréat}}&lt;ref name=&quot;SXSW&quot; /&gt;
+|-
+| {{date-|21 mars 2016}}
+! scope=&quot;row&quot;| Prix [[National Academy of Video Game Trade Reviewers|NAVGTR]] de 2015
+| Jeu de rôle original
+| Toby Fox
+| {{Lauréat}}&lt;ref&gt;{{Lien web| lang=en|url = http://navgtr.org/winners/2015-winners | titre = 2015 Winners | éditeur=[[National Academy of Video Game Trade Reviewers|NAVGTR]] | date = 21 février 2017 | consulté le = 30 septembre 2018}}&lt;/ref&gt;
+|-
+| {{date-|7 avril 2016}}
+! scope=&quot;row&quot;| [[British Academy Video Games Awards|BAFTA Games Awards]]
+| Histoire
+| ''Undertale''
+| {{nom}}&lt;ref name=&quot;bafta noms&quot;&gt;{{Lien web| lang=en|url = http://www.vg247.com/2016/03/10/rocket-league-the-witcher-3-fallout-4-others-up-for-bafta-best-game-award/ | titre = Rocket League, The Witcher 3, Fallout 4, others up for BAFTA Best Game Award | éditeur=VG247 | prénom = Stephany | nom = Nunnely | date = March 10, 2016 | consulté le = March 10, 2016}}&lt;/ref&gt;{{,}}&lt;ref&gt;{{Lien web| url = http://www.gamesindustry.biz/articles/2016-04-07-fallout-4-wins-best-game-at-baftas |éditeur = GamesIndustry| prénom = Rachel | nom = Weber | titre = Fallout 4 wins best game at BAFTAs | date = 7 avril 2016 | consulté le = 7 avril 2016}}.&lt;/ref&gt;
+|-
+| {{date-|11 août 2016}}
+! scope=&quot;row&quot;| Dragon Awards
+| Meilleur jeu de science-fiction ou de fantasy sur PC/console
+| ''Undertale''
+| {{nom}}&lt;ref&gt;{{Lien web| lang=en|url = http://mediarelations.dragoncon.org/2016/08/12/vote-for-the-dragon-con-awards/ | titre = Vote for the Dragon Awards! | éditeur=VG247 | prénom = Dan | nom = Carroll | date = 12 août 2016 | consulté le = 30 septembre 2018}}&lt;/ref&gt;
+|-
+| {{date-|31 décembre 2016}}
+! scope=&quot;row&quot;| Steam Awards
+| Prix « C'est pas moi qui pleure, c'est mes yeux »
+| ''Undertale''
+| {{nom}}&lt;ref&gt;{{Lien web|url = https://store.steampowered.com/SteamAwards/2016?l=french | titre = Les Steam Awards 2016 | éditeur=[[Valve (entreprise)|Valve]] | consulté le = 30 septembre 2018}}&lt;/ref&gt;
+|}
+|}
+
+== Apparition dans d'autres jeux ==
+Le jeu suivant de Toby Fox, ''[[Deltarune]]'', se passe en partie dans une version de l'univers d'Undertale où les monstres ne sont pas restés piégés dans l'Underground. Plusieurs personnages d'Undertale y font des caméos : Toriel, Alphys, Undyne, Asgore et Sans, ainsi que de nombreux personnages tertiaires. Par ailleurs, le titre ''Deltarune'' est en soi une [[anagramme]] de ''Undertale'' ; et une référence au symbole de la prophétie de l'ange visible plusieurs fois dans ''Undertale'' - le symbole de l'ange contenant plusieurs triangles et &quot;Delta Rune&quot; pouvant être traduit par &quot;Rune [[Delta]]&quot;, c'est-à-dire ce caractère de l'[[alphabet phénicien]] : Δ .
+
+Dans le jeu ''[[Super Smash Bros. Ultimate]]'', développé par ''[[Nintendo]]'', un costume de Sans est disponible à l'achat pour le personnage du Tireur Mii ainsi qu'un remix de la musique ''Megalovania'', en contenu additionnel.
+
+Dans le jeu [[Taiko no Tatsujin|''Taiko no Tatsujin: Drum'n'Fun!'']], un jeu de rythme développé par ''BANDAI NAMCO Entertainment Inc.'', trois musiques du jeu sont proposées en contenu additionnel&lt;ref&gt;{{Lien web |langue=fr-FR |titre=Taiko no Tatsujin: Drum'n'Fun! - UNDERTALE Pack |url=https://www.nintendo.fr/Contenu-telechargeable/Taiko-no-Tatsujin-Drum-n-Fun-UNDERTALE-Pack-1658618.html |site=Nintendo of Europe GmbH |consulté le=2021-01-21}}&lt;/ref&gt; : ''Megalovania'', ''Heartache'' et ''Hopes and Dreams''.
+
+Dans le jeu ''[[Just Shapes and Beats]]'', un jeu de rythme développé par ''Berzerk Studio'', une musique remixée du thème de Muffet (une araignée humanoïde présente dans les personnages d'Undertale) est disponible à la fin du dernier chapitre {{&quot;|The Lost Chapter}}.
+
+== Dans la culture populaire ==
+Le jeu a inspiré la chanson ''Détermination'', écrite et interprétée par la vidéaste KaraL et accompagnée musicalement par le groupe Starrysky&lt;ref&gt;{{Lien web |langue=fr |auteur=KaraL |titre=♫ Undertale ♪ - DETERMINATION |url=https://youtube.com/watch?v=a-bvPLbeRHE |site=Youtube |date=23 octobre 2020 }}&lt;/ref&gt;.
+
+== Notes et références ==
+{{Traduction/Référence|en|Undertale|731130352}}
+=== Notes ===
+&lt;references group = &quot;a&quot;/&gt;
+
+=== Références ===
+{{Références|taille=30}}
+
+== Lien externe ==
+{{Autres projets
+|commons=category:Undertale}}
+* {{Site officiel|langue=en|url=http://undertale.com/}}
+
+{{Palette|Toby Fox}}
+{{Portail|jeu vidéo|fantasy}}
+
+[[Catégorie:Jeu vidéo sorti en 2015]]
+[[Catégorie:Jeu vidéo de rôle]]
+[[Catégorie:Jeu vidéo indépendant]]
+[[Catégorie:Jeu Windows]]
+[[Catégorie:Jeu Mac]]
+[[Catégorie:Jeu Linux]]
+[[Catégorie:Jeu PlayStation 4]]
+[[Catégorie:Jeu PlayStation Vita]]
+[[Catégorie:Jeu Nintendo Switch]]
+[[Catégorie:Jeu vidéo développé aux États-Unis]]
+[[Catégorie:Jeu vidéo avec fins alternatives]]
+[[Catégorie:Projet Kickstarter]]
+[[Catégorie:Prix du public de l'Independent Games Festival]]
+[[Catégorie:Jeu GameMaker]]
+[[Catégorie:Jeu Steam Greenlight]]
+[[Catégorie:Jeu vidéo de fantasy]]
+[[Catégorie:Jeu Steam]]
+[[Catégorie:Jeu vidéo avec une musique composée par Toby Fox]]</text>
+      <sha1>sv1xu0azvzg6jw0q99zzmxfyqn8ndzs</sha1>
+    </revision>
+  </page>
