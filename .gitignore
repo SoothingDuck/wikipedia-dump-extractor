@@ -3,15 +3,14 @@ dist
 .pytest_cache
 
 # Data
-DATA/db/wikipedia.sqlite
 DATA/dump
 DATA/log
-
-# PyCharm
-.idea
 
 # Virtualenv
 .venv
 
 # nohup
 nohup.out
+
+# DuckDB
+wiki.db
