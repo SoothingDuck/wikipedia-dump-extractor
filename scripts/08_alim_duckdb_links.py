@@ -20,7 +20,7 @@ con.sql("DELETE from redirections")
 con.sql("""
         insert into redirections
         select article_title, redirection_title FROM read_csv(
-            'DATA/dump/fr/redirections/*.csv',
+            'DATA/dump/en/redirections/*.csv',
             delim=',',
             header=true,
             columns={

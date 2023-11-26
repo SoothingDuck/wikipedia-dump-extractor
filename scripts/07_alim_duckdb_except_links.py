@@ -20,7 +20,7 @@ con.sql("DELETE from nodes")
 con.sql("""
         insert into nodes
         select * FROM read_csv(
-            'DATA/dump/fr/nodes/*.csv',
+            'DATA/dump/en/nodes/*.csv',
             delim=',',
             header=true,
             columns={
@@ -56,7 +56,7 @@ con.sql("""
             infobox,
             count(*)
             FROM read_csv(
-                'DATA/dump/fr/infoboxes/*.csv',
+                'DATA/dump/en/infoboxes/*.csv',
                 delim=',',
                 header=true,
                 columns={
@@ -89,7 +89,7 @@ con.sql("""
     T1.id as node_id,
     T3.id as infobox_id
     FROM read_csv(
-        'DATA/dump/fr/infoboxes/*.csv',
+        'DATA/dump/en/infoboxes/*.csv',
         delim=',',
         header=true,
         columns={
@@ -155,7 +155,7 @@ con.sql("""
             category,
             count(*)
             FROM read_csv(
-                'DATA/dump/fr/categories/*.csv',
+                'DATA/dump/en/categories/*.csv',
                 delim=',',
                 header=true,
                 columns={
@@ -188,7 +188,7 @@ con.sql("""
     T1.id as node_id,
     T3.id as category_id
     FROM read_csv(
-        'DATA/dump/fr/categories/*.csv',
+        'DATA/dump/en/categories/*.csv',
         delim=',',
         header=true,
         columns={
@@ -226,7 +226,7 @@ con.sql("""
             portal,
             count(*)
             FROM read_csv(
-                'DATA/dump/fr/portals/*.csv',
+                'DATA/dump/en/portals/*.csv',
                 delim=',',
                 header=true,
                 columns={
@@ -259,7 +259,7 @@ con.sql("""
     T1.id as node_id,
     T3.id as portal_id
     FROM read_csv(
-        'DATA/dump/fr/portals/*.csv',
+        'DATA/dump/en/portals/*.csv',
         delim=',',
         header=true,
         columns={
