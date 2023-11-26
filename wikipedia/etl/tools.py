@@ -4,6 +4,13 @@ from wikipedia.etl.dump import Dump
 from wikipedia.etl.extract import DumpFileExtractor
 from joblib import Parallel, delayed
 
+def extraction_done(lang, dir_mask):
+    """Vérifier le statut de l'extraction"""
+    dump_directory = os.path.join("DATA", "dump", lang)
+    output_directory = os.path.join(dump_directory, dir_mask)
+
+    return os.path.exists(output_directory)
+
 def batch_extract(lang, dir_mask, extract_function):
     """Extraction en masse d'un dump avec la fonction"""
     dump_directory = os.path.join("DATA", "dump", lang)

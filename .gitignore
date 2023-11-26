@@ -13,4 +13,4 @@ DATA/log
 nohup.out
 
 # DuckDB
-wiki.db
+wiki.db*
