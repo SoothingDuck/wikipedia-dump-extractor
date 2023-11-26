@@ -1,3 +1,8 @@
+# %% Répertoire
+import os
+program_directory = "{}/wikipedia-dump-extractor".format(os.environ["HOME"])
+os.chdir(program_directory)
+
 #%% Connection
 import duckdb
 
@@ -30,6 +35,12 @@ con.sql("""
             },
             quote='|'
         )
+        where
+        article_title is not null
+        and
+        redirection_title is not null
+        and
+        redirection_title not like '%Greek diacritics%'
 """)
 
 ######### Links ########################
@@ -49,7 +60,7 @@ con.sql("DELETE from links_nodes")
 import os
 import glob
 
-for filename in sorted(glob.glob(os.path.join("DATA", "dump", "fr", "links", "*.csv"))):
+for filename in sorted(glob.glob(os.path.join("DATA", "dump", "en", "links", "*.csv"))):
     print("Traitement de {}".format(filename))
     con.sql("""
         insert into links_nodes
@@ -91,3 +102,5 @@ for filename in sorted(glob.glob(os.path.join("DATA", "dump", "fr", "links", "*.
         group by 1,2
     """)
                           
+
+# %%

@@ -1,10 +1,15 @@
-#%% Connection
+# %% Répertoire
+import os
+program_directory = "{}/wikipedia-dump-extractor".format(os.environ["HOME"])
+os.chdir(program_directory)
+
+# %% Connection
 import duckdb
 
 con = duckdb.connect('wiki.db')
 
+# %% Création de la table des nodes
 ######### NODES ########################
-#%% Création de la table des nodes
 con.sql("""
 CREATE TABLE IF NOT EXISTS nodes(
     id INTEGER PRIMARY KEY,
@@ -102,37 +107,9 @@ con.sql("""
     group by 1,2
 """)
 
-#%% Requête jeux vidéos
-con.sql("""
-        select
-        T1.name,
-        count(*)
-        from
-        infobox_type T1 inner join
-        infobox_node_assoc T2 on (T1.id = T2.infobox_id)
-        where
-        name like '%jeu%'
-        and
-        name like '%vidéo%'
-        group by 1
-        having count(*) > 5
-        order by 2 desc
-""")
 
-#%% Série de jeux vidéos
-con.sql("""
-        select
-        T3.title
-        from
-        infobox_type T1 inner join
-        infobox_node_assoc T2 on (T1.id = T2.infobox_id) inner join
-        nodes T3 on (T2.node_id = T3.id)
-        where
-        T1.name = 'jeu vidéo'
-""")
-
-######### CATEGORIES ########################
 #%% Création de la table des types de categories
+######### CATEGORIES ########################
 con.sql("""
 CREATE TABLE IF NOT EXISTS category_type(
     id INTEGER PRIMARY KEY,
@@ -181,7 +158,7 @@ CREATE TABLE IF NOT EXISTS category_node_assoc(
 #%% Suppression des liens category
 con.sql("DELETE FROM category_node_assoc;")
 
-#%% insertion des categories
+#%% insertion des categories (kernel crash)
 con.sql("""
     insert into category_node_assoc
     select 
