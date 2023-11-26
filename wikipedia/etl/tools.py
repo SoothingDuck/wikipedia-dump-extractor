@@ -21,7 +21,7 @@ def batch_extract(lang, dir_mask, extract_function):
     except FileExistsError:
         pass
 
-    for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*.bz2"))):
+    for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*xml-p*.bz2"))):
 
         dump = Dump(dump_filename, lang)
 
@@ -40,7 +40,7 @@ def batch_extract_parallel(lang, dir_mask, extract_function):
     except FileExistsError:
         pass
 
-    for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*.bz2"))):
+    for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*xml-p*.bz2"))):
 
         dump = Dump(dump_filename, lang)
 
