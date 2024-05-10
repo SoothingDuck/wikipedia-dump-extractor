@@ -11,3 +11,8 @@
     ./scripts/01_download_fr_dump.sh
 
 """
+
+from configparser import ConfigParser
+
+config = ConfigParser()
+config.read("config.ini")
