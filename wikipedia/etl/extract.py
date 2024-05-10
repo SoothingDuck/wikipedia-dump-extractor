@@ -121,9 +121,7 @@ class DumpFileExtractor(DumpExtractor):
                     if article.redirect_title is None:
                         if len(article.title.strip()) <= maxlength_article_title:
                             for link in article.links:
-                                linkwriter.writerow(
-                                    [article.id, link.strip()]
-                                )
+                                linkwriter.writerow([article.id, link.strip()])
 
     def extract_infoboxes(self):
         # Categories
@@ -133,6 +131,7 @@ class DumpFileExtractor(DumpExtractor):
                 infoboxwriter = csv.writer(
                     csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
                 )
+
                 infoboxwriter.writerow(["article_id", "article_title", "infobox"])
 
                 for article in self:
