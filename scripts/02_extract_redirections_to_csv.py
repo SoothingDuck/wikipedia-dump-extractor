@@ -1,5 +1,8 @@
-
+from configparser import ConfigParser
 from wikipedia.etl.tools import batch_extract
 
-if __name__ == '__main__':
-    batch_extract("en", "redirections", "extract_redirections")
+if __name__ == "__main__":
+    config = ConfigParser()
+    config.read("config.ini")
+
+    batch_extract(config["default"]["lang"], "redirections", "extract_redirections")
