@@ -1,39 +1,49 @@
-# %% Répertoire
+# Libs
+from wikipedia import config
+
+# Répertoire
 import os
-program_directory = "{}/wikipedia-dump-extractor".format(os.environ["HOME"])
+
+program_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
 os.chdir(program_directory)
 
-#%% Connection
+lang = config["default"]["lang"]
+
+# %% Connection
 import duckdb
 
-con = duckdb.connect('wiki.db')
+con = duckdb.connect(config["database"]["name"])
 
 ######### Redirections ########################
-#%% Création de la table des nodes
-con.sql("""
+# %% Création de la table des nodes
+con.sql(
+    """
 CREATE TABLE IF NOT EXISTS redirections(
     article_title VARCHAR,
     redirection_title VARCHAR,
     PRIMARY KEY (article_title, redirection_title)
 );
-""")
+"""
+)
 
-#%% Effacement des nodes
+# %% Effacement des nodes
 con.sql("DELETE from redirections")
 
-#%% Insertion depuis le CSV
-con.sql("""
+# %% Insertion depuis le CSV
+con.sql(
+    f"""
         insert into redirections
         select article_title, redirection_title FROM read_csv(
-            'DATA/dump/en/redirections/*.csv',
+            'DATA/dump/{lang}/redirections/*.csv',
             delim=',',
             header=true,
-            columns={
+            columns={{
                 'article_id': 'INTEGER',
                 'article_title': 'VARCHAR',
                 'redirection_title': 'VARCHAR'
-            },
-            quote='|'
+            }},
+            quote='|',
+            ignore_errors=true
         )
         where
         article_title is not null
@@ -41,28 +51,32 @@ con.sql("""
         redirection_title is not null
         and
         redirection_title not like '%Greek diacritics%'
-""")
+"""
+)
 
 ######### Links ########################
-#%% Création de la table des liens
-con.sql("""
+# %% Création de la table des liens
+con.sql(
+    """
 CREATE TABLE IF NOT EXISTS links_nodes(
     source_node_id INTEGER,
     destination_node_id INTEGER,
     PRIMARY KEY (source_node_id, destination_node_id)
 );
-""")
+"""
+)
 
-#%% Effacement des nodes
+# %% Effacement des nodes
 con.sql("DELETE from links_nodes")
 
-#%% Insertion des liens avec et sans redirections
+# %% Insertion des liens avec et sans redirections
 import os
 import glob
 
-for filename in sorted(glob.glob(os.path.join("DATA", "dump", "en", "links", "*.csv"))):
+for filename in sorted(glob.glob(os.path.join("DATA", "dump", lang, "links", "*.csv"))):
     print("Traitement de {}".format(filename))
-    con.sql("""
+    con.sql(
+        """
         insert into links_nodes
         select
         source_node_id,
@@ -73,34 +87,41 @@ for filename in sorted(glob.glob(os.path.join("DATA", "dump", "en", "links", "*.
             T1.article_id as source_node_id,
             T2.id as destination_node_id
             FROM read_csv(
-                '"""+ filename +"""',
+                '"""
+        + filename
+        + """',
                 delim=',',
                 header=true,
                 columns={
                     'article_id': 'INTEGER',
                     'link_title': 'VARCHAR'
                 },
-                quote='|'
+                quote='|',
+                escape=''
             ) T1 inner join nodes T2 on (T1.link_title = T2.title)
             union all
             select 
             T1.article_id as source_node_id,
             T3.id as destination_id
             FROM read_csv(
-                '"""+ filename +"""',
+                '"""
+        + filename
+        + """',
                 delim=',',
                 header=true,
                 columns={
                     'article_id': 'INTEGER',
                     'link_title': 'VARCHAR'
                 },
-                quote='|'
+                quote='|',
+                escape=''
             ) T1 inner join
             redirections T2 on (T1.link_title = T2.article_title) inner join
             nodes T3 on (T2.redirection_title = T3.title)
         ) T
         group by 1,2
-    """)
-                          
+    """
+    )
+
 
 # %%

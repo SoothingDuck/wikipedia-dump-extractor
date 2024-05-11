@@ -167,7 +167,7 @@ if "category" in sync_list:
                         'category': 'VARCHAR'
                     }},
                     quote='|',
-                    ignore_errors=true
+                    escape=''
                 )
                 group by 1
             ) T
@@ -205,7 +205,7 @@ if "category" in sync_list:
                 'category': 'VARCHAR'
             }},
             quote='|',
-            ignore_errors=true
+            escape=''
         ) T1 left outer join nodes T2 on (T1.title = T2.title) inner join category_type T3 on (T1.category = T3.name)
         group by 1,2
     """
@@ -248,7 +248,8 @@ if "portal" in sync_list:
                         'title': 'VARCHAR',
                         'portal': 'VARCHAR'
                     }},
-                    quote='|'
+                    quote='|',
+                    escape=''
                 )
                 group by 1
             ) T
@@ -285,7 +286,8 @@ if "portal" in sync_list:
                 'title': 'VARCHAR',
                 'portal': 'VARCHAR'
             }},
-            quote='|'
+            quote='|',
+            escape=''
         ) T1 left outer join nodes T2 on (T1.title = T2.title) inner join portal_type T3 on (T1.portal = T3.name)
         group by 1,2
     """
