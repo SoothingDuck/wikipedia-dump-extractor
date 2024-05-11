@@ -1,14 +1,14 @@
 # wikipedia-dump-extractor
 
-A simple library to download, 
+A simple library to download,
 extract and transform the wikipedia articles
 found in xml form in https://dumps.wikimedia.org/
-for further analysis of the 
+for further analysis of the
 heritage of mankind
 
 # Download
 
-Right now the 
+Right now the
 `download_last_wikipedia_dump.sh`
 will do the job.
 
@@ -33,9 +33,3 @@ in `DATA/dump/fr`.
 # Extraction
 
 By default, relevant data are extracted to JSON.
-
-
-
-
-
-
