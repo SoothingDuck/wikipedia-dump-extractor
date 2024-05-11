@@ -4,7 +4,7 @@ from wikipedia import config
 # Répertoire
 import os
 
-program_directory = "{}/wikipedia-dump-extractor".format(os.environ["HOME"])
+program_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
 os.chdir(program_directory)
 
 sync_list = [x.strip() for x in config["database"]["sync_list"].split(",")]
@@ -44,7 +44,8 @@ if "node" in sync_list:
                     'title': 'VARCHAR',
                     'namespace': 'INTEGER'
                 }},
-                quote='|'
+                quote='|',
+                escape=''
             )
     """
     )
@@ -165,7 +166,8 @@ if "category" in sync_list:
                         'title': 'VARCHAR',
                         'category': 'VARCHAR'
                     }},
-                    quote='|'
+                    quote='|',
+                    ignore_errors=true
                 )
                 group by 1
             ) T
@@ -202,7 +204,8 @@ if "category" in sync_list:
                 'title': 'VARCHAR',
                 'category': 'VARCHAR'
             }},
-            quote='|'
+            quote='|',
+            ignore_errors=true
         ) T1 left outer join nodes T2 on (T1.title = T2.title) inner join category_type T3 on (T1.category = T3.name)
         group by 1,2
     """
