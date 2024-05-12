@@ -1,27 +1,32 @@
 #%% Connection
 import duckdb
 
-con = duckdb.connect('wiki.db')
+con = duckdb.connect("wiki.db")
 
 #%% Structure tables des nodes
-con.sql("""
+con.sql(
+    """
 select
 *
 from
 nodes limit 5
-""")
+"""
+)
 
 #%% Structure de links_node
-con.sql("""
+con.sql(
+    """
 select
 *
 from
 links_nodes
 limit 5
-""")
+"""
+)
 
 #%% Comptage par popularité des lien entrants
-con.sql("""
+con.sql(
+    """
 select
 T4.id,
 T4.title,
@@ -44,4 +49,5 @@ where
 T4.title like '%pain%'
 group by 1,2
 order by 3 desc
-        """)
+        """
+)
