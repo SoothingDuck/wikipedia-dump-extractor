@@ -51,6 +51,7 @@ con.sql(
         redirection_title is not null
         and
         redirection_title not like '%Greek diacritics%'
+        group by 1,2
 """
 )
 
