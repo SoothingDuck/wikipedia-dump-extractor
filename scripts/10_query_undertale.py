@@ -1,31 +1,37 @@
 #%% Connection
 import duckdb
 
-con = duckdb.connect("wiki.db")
+con = duckdb.connect("../wiki.db")
 
 #%% Structure tables des nodes
-print(con.sql(
-    """
+print(
+    con.sql(
+        """
 select
 *
 from
 nodes limit 5
 """
-))
+    )
+)
 
 #%% Structure de links_node
-print(con.sql(
-    """
+print(
+    con.sql(
+        """
 select
 *
 from
 links_nodes
 limit 5
 """
-))
+    )
+)
 
 #%% Comptage par popularité des lien entrants
-print(con.sql("""
+print(
+    con.sql(
+        """
 select
 *
 from
@@ -33,11 +39,14 @@ nodes T1
 where
 T1.title = 'Undertale'
 """
-))
+    )
+)
 
 #%%
 
-print(con.sql("""
+print(
+    con.sql(
+        """
 select
 T1.title,
 T3.title
@@ -48,4 +57,5 @@ nodes T3 on (T2.source_node_id = T3.id)
 where
 T1.title = 'Undertale'
 """
-))
+    )
+)
