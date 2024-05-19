@@ -10,6 +10,7 @@ from sqlalchemy import Index
 from wikipedia.etl.dump import Dump
 from wikipedia.etl.extract import DumpFileExtractor
 
+
 from abc import ABC
 
 
@@ -18,7 +19,7 @@ class ArticleExtractor(ABC):
         self._dump = dump
 
     def extract(self):
-        raise "Not Implemented"
+        raise Exception("Not Implemented")
 
 
 class ArticleLoader(ABC):
@@ -26,7 +27,7 @@ class ArticleLoader(ABC):
         self._dump = dump
 
     def load(self):
-        raise "Not Implemented"
+        raise Exception("Not Implemented")
 
 
 if __name__ == "__main__":
