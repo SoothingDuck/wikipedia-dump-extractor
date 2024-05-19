@@ -23,6 +23,10 @@ pytest = "*"
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.16.1"
 ipykernel = "^6.26.0"
+epc = "^0.0.5"
+importmagic = "^0.1.7"
+black = "^24.4.2"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
