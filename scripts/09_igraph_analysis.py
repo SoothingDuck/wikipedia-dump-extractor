@@ -1,4 +1,4 @@
-#%% Connection
+# %% Connection
 import pandas as pd
 import duckdb
 import igraph as ig
@@ -13,18 +13,18 @@ con = duckdb.connect("../wiki.db")
 # redirections
 # links_nodes
 
-print(
-    con.sql(
-        """
+# %% Print portal_type
+con.sql(
+    """
 select
 *
 from
 portal_type
 limit 5
 """
-    )
 )
 
+# %%
 print(
     con.sql(
         """

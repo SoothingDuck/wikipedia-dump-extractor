@@ -7,6 +7,7 @@ import os
 program_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
 os.chdir(program_directory)
 
+# %% Get config
 sync_list = [x.strip() for x in config["database"]["sync_list"].split(",")]
 lang = config["default"]["lang"]
 
@@ -88,7 +89,9 @@ if "infobox" in sync_list:
                         'title': 'VARCHAR',
                         'infobox': 'VARCHAR'
                     }},
-                    quote='|'
+                    quote='|',
+                    escape='',
+                    ignore_errors=true
                 )
                 group by 1
             ) T
@@ -125,7 +128,9 @@ if "infobox" in sync_list:
                 'title': 'VARCHAR',
                 'infobox': 'VARCHAR'
             }},
-            quote='|'
+            quote='|',
+            escape='',
+            ignore_errors=true
         ) T1 left outer join nodes T2 on (T1.title = T2.title) inner join infobox_type T3 on (T1.infobox = T3.name)
         group by 1,2
     """
