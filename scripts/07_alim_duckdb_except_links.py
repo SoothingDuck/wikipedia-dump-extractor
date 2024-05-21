@@ -1,4 +1,4 @@
-# Libs
+# %% Libs
 from wikipedia import config
 
 # Répertoire
@@ -15,6 +15,7 @@ import duckdb
 
 con = duckdb.connect(config["database"]["name"])
 
+# %% Nodes
 if "node" in sync_list:
     # %% Création de la table des nodes
     ######### NODES ########################
@@ -50,6 +51,7 @@ if "node" in sync_list:
     """
     )
 
+# %% Infoboxes
 if "infobox" in sync_list:
     ######### INFOBOXES ########################
     # %% Création de la table des types d'infoboxes
@@ -129,7 +131,7 @@ if "infobox" in sync_list:
     """
     )
 
-
+# %% Categories
 if "category" in sync_list:
     # %% Création de la table des types de categories
     ######### CATEGORIES ########################
@@ -211,7 +213,7 @@ if "category" in sync_list:
     """
     )
 
-
+# %% Portals
 if "portal" in sync_list:
     ######### PORTALS ########################
     # %% Création de la table des types de portails
