@@ -3,6 +3,8 @@ from wikipedia import config
 
 # Répertoire
 import os
+import glob
+import duckdb
 
 program_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
 os.chdir(program_directory)
@@ -10,7 +12,6 @@ os.chdir(program_directory)
 lang = config["default"]["lang"]
 
 # %% Connection
-import duckdb
 
 con = duckdb.connect(config["database"]["name"])
 
@@ -34,7 +35,7 @@ con.sql(
     f"""
         insert into redirections
         select article_title, redirection_title FROM read_csv(
-            'DATA/dump/{lang}/redirections/*.csv',
+            '{config["default"]["data_directory"]}/dump/{lang}/redirections/*.csv',
             delim=',',
             header=true,
             columns={{
@@ -71,10 +72,14 @@ CREATE TABLE IF NOT EXISTS links_nodes(
 con.sql("DELETE from links_nodes")
 
 # %% Insertion des liens avec et sans redirections
-import os
-import glob
 
-for filename in sorted(glob.glob(os.path.join("DATA", "dump", lang, "links", "*.csv"))):
+for filename in sorted(
+    glob.glob(
+        os.path.join(
+            config["default"]["data_directory"], "dump", lang, "links", "*.csv"
+        )
+    )
+):
     print("Traitement de {}".format(filename))
     con.sql(
         """

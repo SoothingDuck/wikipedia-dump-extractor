@@ -3,6 +3,7 @@ from wikipedia import config
 
 # Répertoire
 import os
+import duckdb
 
 program_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
 os.chdir(program_directory)
@@ -12,7 +13,6 @@ sync_list = [x.strip() for x in config["database"]["sync_list"].split(",")]
 lang = config["default"]["lang"]
 
 # %% Connection
-import duckdb
 
 con = duckdb.connect(config["database"]["name"])
 
@@ -38,7 +38,7 @@ if "node" in sync_list:
         f"""
             insert into nodes
             select * FROM read_csv(
-                'DATA/dump/{lang}/nodes/*.csv',
+                '{config["default"]["data_directory"]}/dump/{lang}/nodes/*.csv',
                 delim=',',
                 header=true,
                 columns={{
@@ -81,7 +81,7 @@ if "infobox" in sync_list:
                 infobox,
                 count(*)
                 FROM read_csv(
-                    'DATA/dump/{lang}/infoboxes/*.csv',
+                    '{config["default"]["data_directory"]}/dump/{lang}/infoboxes/*.csv',
                     delim=',',
                     header=true,
                     columns={{
@@ -120,7 +120,7 @@ if "infobox" in sync_list:
         T1.id as node_id,
         T3.id as infobox_id
         FROM read_csv(
-            'DATA/dump/{lang}/infoboxes/*.csv',
+            '{config["default"]["data_directory"]}/dump/{lang}/infoboxes/*.csv',
             delim=',',
             header=true,
             columns={{
@@ -165,7 +165,7 @@ if "category" in sync_list:
                 category,
                 count(*)
                 FROM read_csv(
-                    'DATA/dump/{lang}/categories/*.csv',
+                    '{config["default"]["data_directory"]}/dump/{lang}/categories/*.csv',
                     delim=',',
                     header=true,
                     columns={{
@@ -203,7 +203,7 @@ if "category" in sync_list:
         T1.id as node_id,
         T3.id as category_id
         FROM read_csv(
-            'DATA/dump/{lang}/categories/*.csv',
+            '{config["default"]["data_directory"]}/dump/{lang}/categories/*.csv',
             delim=',',
             header=true,
             columns={{
@@ -247,7 +247,7 @@ if "portal" in sync_list:
                 portal,
                 count(*)
                 FROM read_csv(
-                    'DATA/dump/{lang}/portals/*.csv',
+                    '{config["default"]["data_directory"]}/dump/{lang}/portals/*.csv',
                     delim=',',
                     header=true,
                     columns={{
@@ -285,7 +285,7 @@ if "portal" in sync_list:
         T1.id as node_id,
         T3.id as portal_id
         FROM read_csv(
-            'DATA/dump/{lang}/portals/*.csv',
+            '{config["default"]["data_directory"]}/dump/{lang}/portals/*.csv',
             delim=',',
             header=true,
             columns={{

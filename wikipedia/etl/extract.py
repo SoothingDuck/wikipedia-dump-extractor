@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """
-    wikipedia
-    ---------
+wikipedia
+---------
 
-    This module contains the classes used to represent and extract informations from wikipedia dumps
+This module contains the classes used to represent and extract informations from wikipedia dumps
 
 """
 
@@ -22,7 +22,6 @@ import csv
 
 
 class DumpExtractor(ABC):
-
     def __init__(self, dump):
         self._dump = dump
 
@@ -174,16 +173,3 @@ class DumpFileExtractor(DumpExtractor):
                             portalwriter.writerow(
                                 [article.id, article.title.strip(), portal.strip()]
                             )
-
-
-if __name__ == "__main__":
-    import glob
-    from wikipedia.etl.dump import Dump
-
-    for filename in glob.glob("DATA/dump/fr/*.bz2"):
-        print(filename)
-
-        d = Dump(filename)
-        print(d.node_filename)
-
-        break

@@ -2,18 +2,20 @@ import os
 import glob
 from wikipedia.etl.dump import Dump
 from wikipedia.etl.extract import DumpFileExtractor
-from joblib import Parallel, delayed
+from wikipedia import config
+
 
 def extraction_done(lang, dir_mask):
     """Vérifier le statut de l'extraction"""
-    dump_directory = os.path.join("DATA", "dump", lang)
+    dump_directory = os.path.join(config["default"]["data_directory"], "dump", lang)
     output_directory = os.path.join(dump_directory, dir_mask)
 
     return os.path.exists(output_directory)
 
+
 def batch_extract(lang, dir_mask, extract_function):
     """Extraction en masse d'un dump avec la fonction"""
-    dump_directory = os.path.join("DATA", "dump", lang)
+    dump_directory = os.path.join(config["default"]["data_directory"], "dump", lang)
     output_directory = os.path.join(dump_directory, dir_mask)
 
     try:
@@ -22,7 +24,6 @@ def batch_extract(lang, dir_mask, extract_function):
         pass
 
     for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*xml-p*.bz2"))):
-
         dump = Dump(dump_filename, lang)
 
         etl = DumpFileExtractor(dump, output_directory)
@@ -32,7 +33,7 @@ def batch_extract(lang, dir_mask, extract_function):
 
 def batch_extract_parallel(lang, dir_mask, extract_function):
     """Extraction en masse d'un dump avec la fonction"""
-    dump_directory = os.path.join("DATA", "dump", lang)
+    dump_directory = os.path.join(config["default"]["data_directory"], "dump", lang)
     output_directory = os.path.join(dump_directory, dir_mask)
 
     try:
@@ -41,7 +42,6 @@ def batch_extract_parallel(lang, dir_mask, extract_function):
         pass
 
     for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*xml-p*.bz2"))):
-
         dump = Dump(dump_filename, lang)
 
         etl = DumpFileExtractor(dump, output_directory)
