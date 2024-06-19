@@ -7,7 +7,7 @@ if [ "$1" == "" ]; then
 	exit 0
 fi
 
-DATA_DIRECTORY="~/data/wikipedia"
+DATA_DIRECTORY="${HOME}/data/wikipedia"
 LAST_DATE="20240501"
 
 # Identify dump files
