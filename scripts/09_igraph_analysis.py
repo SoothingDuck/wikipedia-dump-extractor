@@ -148,9 +148,24 @@ g = ig.Graph.DataFrame(edges=edges, directed=False, vertices=vertices, use_vids=
 
 # %%
 g.is_simple()
+len(g.vs)
+len(g.es)
 
 # %% simplify
 g_simple = g.simplify()
 
 # %% is_simple
 g_simple.is_simple()
+len(g_simple.vs)
+len(g_simple.es)
+
+# %% Leiden clustering
+c = g.community_leiden()
+
+# %%
+for i, sg in enumerate(c.subgraphs()):
+    if len(sg.vs) > 10:
+        print(i, len(sg.vs))
+
+# %%
+ig.plot(c.subgraphs()[2255])
