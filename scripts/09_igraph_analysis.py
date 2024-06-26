@@ -196,9 +196,7 @@ def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
 
 
 # %%
-sg = extract_graph_community(
-    g, "The Great Escape (jeu vidéo, 1986)", max_iter=20, max_nodes=20
-)
+sg = extract_graph_community(g, "Return of the Obra Dinn", max_iter=20, max_nodes=20)
 
 # %%
 len(sg.vs)
