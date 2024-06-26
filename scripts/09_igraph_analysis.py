@@ -24,7 +24,7 @@ from
 portal_node_assoc T1 inner join
 portal_type T2 on (T1.portal_id = T2.id)
 where
-T2.name ilike '%jeu vidéo%'
+T2.name ilike '%video games%'
 group by 1
 order by 2 desc
 limit 20
@@ -54,9 +54,9 @@ print(
         from 
         category_type
         where
-        name ilike '%jeu%'
+        name ilike '%video%'
         and
-        name ilike '%vidéo%'
+        name ilike '%game%'
         """
     )
 )
@@ -72,9 +72,9 @@ print(
         category_node_assoc T1 inner join
         category_type T2 on (T2.id = T1.category_id)
         where
-        T2.name ilike '%jeu%'
+        T2.name ilike '%video%'
         and
-        T2.name ilike '%vidéo%'
+        T2.name ilike '%game%'
         group by 1
         order by 2 desc
         limit 20
@@ -89,9 +89,9 @@ select
 *
 from
 nodes T1 inner join
-portal_node_assoc T2 on (T1.id = T2.node_id)
+category_node_assoc T2 on (T1.id = T2.node_id)
 where
-title ilike 'Return of the Obra%'
+T1.title ilike 'Return of the Obra%'
 """
 )
 # %% nodes request
@@ -102,11 +102,13 @@ with RAW_NODES as (
     T3.id,
     T3.title as name
     from
-    portal_type T1 inner join
-    portal_node_assoc T2 on (T1.id = T2.portal_id) inner join
+    category_type T1 inner join
+    category_node_assoc T2 on (T1.id = T2.category_id) inner join
     nodes T3 on (T2.node_id = T3.id)
     where
-    T1.name ilike '%jeu vidéo%'
+    T1.name ilike '%video%'
+    and
+    T1.name ilike '%game%'
     and
     T3.namespace = 0
     group by 1,2
@@ -140,11 +142,13 @@ with RAW_NODES as (
     T3.id,
     T3.title as name
     from
-    portal_type T1 inner join
-    portal_node_assoc T2 on (T1.id = T2.portal_id) inner join
+    category_type T1 inner join
+    category_node_assoc T2 on (T1.id = T2.category_id) inner join
     nodes T3 on (T2.node_id = T3.id)
     where
-    T1.name ilike '%jeu vidéo%'
+    T1.name ilike '%video%'
+    and
+    T1.name ilike '%game%'
     and
     T3.namespace = 0
     group by 1,2
@@ -192,7 +196,9 @@ def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
 
 
 # %%
-sg = extract_graph_community(g, "Infernal Runner", max_iter=20, max_nodes=20)
+sg = extract_graph_community(
+    g, "The Great Escape (jeu vidéo, 1986)", max_iter=20, max_nodes=20
+)
 
 # %%
 len(sg.vs)
