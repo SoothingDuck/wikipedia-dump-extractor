@@ -3,7 +3,7 @@ import duckdb
 import igraph as ig
 import matplotlib.pyplot as plt
 
-con = duckdb.connect("wiki.db")
+con = duckdb.connect("../wiki.db")
 
 # nodes
 # category_type
@@ -82,18 +82,6 @@ print(
     )
 )
 
-# %% Find undertale
-con.sql(
-    """
-select
-*
-from
-nodes T1 inner join
-category_node_assoc T2 on (T1.id = T2.node_id)
-where
-T1.title ilike 'Return of the Obra%'
-"""
-)
 # %% nodes request
 vertices = con.sql(
     """
@@ -184,6 +172,7 @@ g = g.simplify()
 
 # %%
 def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
+
     if max_iter <= 0:
         return graph
     c = graph.community_multilevel()
@@ -195,16 +184,28 @@ def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
                 return extract_graph_community(sg, node_name, max_iter - 1, max_nodes)
 
 
+# %% Find a node
+print(
+    con.sql(
+    """
+select
+*
+from
+nodes T1
+where
+T1.title ilike '%Manic Min%'
+"""
+))
+
 # %%
-sg = extract_graph_community(g, "Return of the Obra Dinn", max_iter=20, max_nodes=20)
+sg = extract_graph_community(g, "Auf Wiedersehen Monty", max_iter=20, max_nodes=20)
 
 # %%
 len(sg.vs)
 
 # %%
 sg.vs["label"] = sg.vs["name"]
-layout = sg.layout(layout="kamada_kawai")
-fig, ax = plt.subplots()
-ig.plot(sg, layout=layout, target=ax, vertex_size=7, edge_width=0.7)
-fig.set_size_inches(20, 20)
-plt.show()
+
+for v in sg.vs:
+    print(v["name"])
+
