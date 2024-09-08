@@ -1,61 +1,62 @@
-#%% Connection
-import duckdb
+# %% Modules
+import igraph as ig
+import matplotlib.pyplot as plt
+import pandas as pd
+from iterfzf import iterfzf
 
-con = duckdb.connect("../wiki.db")
+# %% Read data
+g = ig.read("graph_vg.pickle")
 
-#%% Structure tables des nodes
-print(
-    con.sql(
-        """
-select
-*
-from
-nodes limit 5
-"""
-    )
-)
+# %% Read vertices and edges
+vertices = pd.read_pickle("vertices.pickle")
+edges = pd.read_pickle("edges.pickle")
 
-#%% Structure de links_node
-print(
-    con.sql(
-        """
-select
-*
-from
-links_nodes
-limit 5
-"""
-    )
-)
 
-#%% Comptage par popularité des lien entrants
-print(
-    con.sql(
-        """
-select
-*
-from
-nodes T1
-where
-T1.title = 'Undertale'
-"""
-    )
-)
+# %%
+def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
 
-#%%
+    if max_iter <= 0:
+        return graph
+    c = graph.community_multilevel()
+    for sg in c.subgraphs():
+        if node_name in sg.vs["name"]:
+            if len(sg.vs) <= max_nodes:
+                return sg
+            else:
+                return extract_graph_community(sg, node_name, max_iter - 1, max_nodes)
 
-print(
-    con.sql(
-        """
-select
-T1.title,
-T3.title
-from
-nodes T1 inner join
-links_nodes T2 on (T1.id = T2.destination_node_id) inner join
-nodes T3 on (T2.source_node_id = T3.id)
-where
-T1.title = 'Undertale'
-"""
-    )
-)
+
+# %% Find a node
+# print(
+#     con.sql(
+#         """
+# select
+# *
+# from
+# nodes T1
+# where
+# T1.title ilike '%Manic Min%'
+# """
+#     )
+# )
+
+
+# %% Iter vertices
+def iter_wikipedia():
+    for index, value in vertices["name"].items():
+        yield (value)
+
+
+node_name = iterfzf(iter_wikipedia(), multi=True)
+
+# %%
+sg = extract_graph_community(g, node_name, max_iter=20, max_nodes=20)
+
+# %%
+len(sg.vs)
+
+# %%
+sg.vs["label"] = sg.vs["name"]
+
+for v in sorted(sg.vs, key=lambda x: x["page_rank"], reverse=True):
+    print(v["name"], v["page_rank"])

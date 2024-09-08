@@ -19,6 +19,7 @@ duckdb = "^0.10.2"
 pycairo = "^1.26.0"
 matplotlib = "^3.9.0"
 danker = "^0.8.0"
+iterfzf = "^1.4.0.54.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"

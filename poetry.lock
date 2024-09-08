@@ -909,6 +909,24 @@ files = [
 colors = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "iterfzf"
+version = "1.4.0.54.3"
+description = "Pythonic interface to fzf"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "iterfzf-1.4.0.54.3-py3-none-macosx_10_7_x86_64.macosx_10_9_x86_64.whl", hash = "sha256:0d070c575cb9e706651e2f753d0361639fcd7b79435ef4626a824a0a76b03dce"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-macosx_11_0_arm64.whl", hash = "sha256:9d3edbd8184490bd9ab8cd399db462e010ae7c2273d933b040ca536d5c1a8915"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-manylinux_1_2_aarch64.manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f981dcf71f44bd4aa7119cc8e19373a8a8726db6f829a505d131c263c2fe8d84"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-manylinux_1_2_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c87a093cdd13b9604f3e7f457dd49ec1bc1dad63899476a01f5743ad1f394bb9"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a7510bc99e503b12513fceca9add5ae6bcd9497e95a098ae682ca5b2916dc3c2"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:6c32312ce5599d84600d920b0db8986cf10b20e4b9fdb2aee5df6b67cc646d27"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-win_amd64.whl", hash = "sha256:8385d45359d6c392b10095d179f0b2857f64b33eba55e1b6a34eb5d82320377f"},
+    {file = "iterfzf-1.4.0.54.3-py3-none-win_arm64.whl", hash = "sha256:bf78d55832e172fe7bce451f3b68becde28412a192f7161ca7bd2313bd5e842f"},
+    {file = "iterfzf-1.4.0.54.3.tar.gz", hash = "sha256:8a0b9dc4f1a126da959dd601643bf31de7fa69febb7c33f4b6e2fa8edc4be2e1"},
+]
+
+[[package]]
 name = "jedi"
 version = "0.19.1"
 description = "An autocompletion tool for Python that can be used for text editors."
@@ -2300,4 +2318,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "24416e849c7bbb904119842a2ebe173239cc1d598fedddcdfb2bfef6bef9bb81"
+content-hash = "5a65931c0b329ebbd12e14f155b6f35f7716227d400231f10eb79ccf3a65ea81"

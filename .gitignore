@@ -17,3 +17,6 @@ wiki.db*
 
 # Danker files
 danker*
+
+# pickle files
+*.pickle

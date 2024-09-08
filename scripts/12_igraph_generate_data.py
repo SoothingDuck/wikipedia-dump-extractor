@@ -1,9 +1,8 @@
 # %% Connection
 import duckdb
 import igraph as ig
-import matplotlib.pyplot as plt
 
-con = duckdb.connect("../wiki.db")
+con = duckdb.connect("wiki.db")
 
 # nodes
 # category_type
@@ -49,9 +48,9 @@ print(
 print(
     con.sql(
         """
-        select 
+        select
         *
-        from 
+        from
         category_type
         where
         name ilike '%video%'
@@ -65,10 +64,10 @@ print(
 print(
     con.sql(
         """
-        select 
+        select
         T2.name as category_name,
         count(*)
-        from 
+        from
         category_node_assoc T1 inner join
         category_type T2 on (T2.id = T1.category_id)
         where
@@ -113,14 +112,16 @@ with RAW_NODES as (
     group by 1,2
 )
 select
-name
+T1.name as name,
+min(T2.rank) as page_rank
 from
-RAW_NODES
+RAW_NODES T1 inner join
+page_rank_nodes T2 on (T1.id = T2.id)
 group by 1
 """
 ).to_df()
 
-print(vertices)
+vertices.to_pickle("vertices.pickle")
 
 # %% edge request
 edges = con.sql(
@@ -161,7 +162,7 @@ group by 1,2
 """
 ).to_df()
 
-print(edges)
+edges.to_pickle("edges.pickle")
 
 # %% Graph
 g = ig.Graph.DataFrame(edges=edges, directed=False, vertices=vertices, use_vids=False)
@@ -169,43 +170,5 @@ g = ig.Graph.DataFrame(edges=edges, directed=False, vertices=vertices, use_vids=
 # %% Simplify
 g = g.simplify()
 
-
-# %%
-def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
-
-    if max_iter <= 0:
-        return graph
-    c = graph.community_multilevel()
-    for sg in c.subgraphs():
-        if node_name in sg.vs["name"]:
-            if len(sg.vs) <= max_nodes:
-                return sg
-            else:
-                return extract_graph_community(sg, node_name, max_iter - 1, max_nodes)
-
-
-# %% Find a node
-print(
-    con.sql(
-    """
-select
-*
-from
-nodes T1
-where
-T1.title ilike '%Manic Min%'
-"""
-))
-
-# %%
-sg = extract_graph_community(g, "Auf Wiedersehen Monty", max_iter=20, max_nodes=20)
-
-# %%
-len(sg.vs)
-
-# %%
-sg.vs["label"] = sg.vs["name"]
-
-for v in sg.vs:
-    print(v["name"])
-
+# %% Save graph
+g.write("graph_vg.pickle")
