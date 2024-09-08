@@ -43,11 +43,15 @@ def extract_graph_community(graph, node_name, max_iter=5, max_nodes=20):
 
 # %% Iter vertices
 def iter_wikipedia():
-    for index, value in vertices["name"].items():
+    for index, value in vertices.sort_values("page_rank", ascending=False)[
+        "name"
+    ].items():
         yield (value)
 
 
-node_name = iterfzf(iter_wikipedia(), multi=True)
+node_name = iterfzf(iter_wikipedia(), multi=False)
+
+print(node_name)
 
 # %%
 sg = extract_graph_community(g, node_name, max_iter=20, max_nodes=20)
