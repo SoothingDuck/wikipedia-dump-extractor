@@ -20,3 +20,6 @@ danker*
 
 # pickle files
 *.pickle
+
+# view data
+data
