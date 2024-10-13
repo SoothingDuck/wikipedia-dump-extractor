@@ -24,6 +24,7 @@ def batch_extract(lang, dir_mask, extract_function):
         pass
 
     for dump_filename in sorted(glob.glob(os.path.join(dump_directory, "*xml-p*.bz2"))):
+        print(dump_filename)
         dump = Dump(dump_filename, lang)
 
         etl = DumpFileExtractor(dump, output_directory)

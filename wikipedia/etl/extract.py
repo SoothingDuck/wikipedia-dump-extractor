@@ -12,8 +12,6 @@ __author__ = "Yvan Aillet"
 
 import bz2
 from lxml import etree
-from dateutil.parser import parse
-import re
 
 from wikipedia.etl.dump import Article
 from abc import ABC, abstractmethod
@@ -39,6 +37,8 @@ class DumpExtractor(ABC):
 
 
 class DumpFileExtractor(DumpExtractor):
+    MEDIAWIKI_NS_VERSION = "{http://www.mediawiki.org/xml/export-0.11/}"
+
     def __init__(self, dump, directory_name):
         super().__init__(dump)
         self._directory_name = directory_name
@@ -56,7 +56,7 @@ class DumpFileExtractor(DumpExtractor):
             f = open(self.dump.filename, "rb")
 
         for _, element in etree.iterparse(f, events=("end",)):
-            if element.tag == "{http://www.mediawiki.org/xml/export-0.10/}page":
+            if element.tag == "{}page".format(DumpFileExtractor.MEDIAWIKI_NS_VERSION):
                 yield (Article(element, self.dump.lang))
             else:
                 continue
